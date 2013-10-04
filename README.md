@@ -2,7 +2,7 @@
 
 ## About
 
-Flatland-Alt is a *slightly* tweaked version of the [Flatland](https://github.com/thinkpixellab/flatland) theme and accompanying color scheme for Sublime Text 2 & 3.  
+Flatland-Alt is a *slightly* tweaked version of the [Flatland](https://github.com/thinkpixellab/flatland) theme and accompanying color scheme for Sublime Text 2 & 3. I DO NOT take any credit for the real work that was done by [The Pixel Lab](https://github.com/thinkpixellab).
 
 ## Tweaks
 
