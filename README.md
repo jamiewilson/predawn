@@ -21,8 +21,9 @@ There are only a few things different in Flatland-Alt:
 ## Installation
 Flatland-Alt is a Sublime package. Currently, you must install it manually.
 
-1. [Download theme files](https://github.com/jamiewilson/flatland-alt/archive/master.zip)
-2. Unzip the files and copy the folder newly created folder into your Sublime Text Packages directory with the name `flatland-alt`. You can find that directory by selecting "Preferences > Browse Packages ...".
+1. [Download the theme files](https://github.com/jamiewilson/flatland-alt/archive/master.zip)
+2. Unzip the files and rename the newly created folder to `flatland-alt`
+3. Copy the folder into the Sublime Text Packages folder. On a Mac that's located at Library > Application Support > Sublime Text > Packages. You can find that directory by selecting Preferences > Browse Packages...
 
 
 ## Activating the Theme
