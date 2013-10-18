@@ -9,7 +9,7 @@ Flatland-Alt is a *slightly* tweaked version of the [Flatland](https://github.co
 There are only a few things different in Flatland-Alt:
 
 1. There is only a dark version
-2. There are only square tabs, and they have been redeigned to be bigger and more minimal
+2. There are only square tabs, and they have been made bigger and more minimal
 3. The accent color has been changed from blue to an orange
 4. The selection color has been changed to black
 5. A new icon has been designed to match
