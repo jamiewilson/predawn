@@ -319,7 +319,7 @@
 
     {
         "class": "minimap_control",
-        "viewport_color": [241, 130, 96, 15]
+        "viewport_color": [61, 142, 243, 20]
     },
 
 //
@@ -615,8 +615,7 @@
         "class": "text_line_control",
         "layer0.texture": "flatland-alt/assets/text-field.png",
         "layer0.opacity": 1.0,
-        "layer0.inner_margin": [10,10,10,10],
-        "content_margin": [4, 5, 15, 4]
+        "content_margin": [5, 5]
     },
 
 //
@@ -627,7 +626,7 @@
     {
         "class": "panel_control",
         "layer0.texture": "flatland-alt/assets/panel-background.png",
-        "layer0.inner_margin": [2, 2, 2, 5],
+        "layer0.inner_margin": [2, 2, 2, 2],
         "layer0.opacity": 1.0
     },
     // Quick panel background
@@ -639,13 +638,7 @@
         "layer1.texture": "flatland-alt/assets/quick-panel-background.png",
         "layer1.inner_margin": [20, 40, 20, 20],
         "layer1.opacity": 1.0,
-        "content_margin": [20, 0, 20, 26] // content margin
-    },
-    // Square tabs modify height, move content margin for quick panel
-    {
-        "class": "overlay_control",
-        "settings": ["flatland_square_tabs"],
-        "content_margin": [20, 4, 20, 26]
+        "content_margin": [20, 6, 20, 26] // content margin
     },
 
 //
@@ -654,7 +647,7 @@
 
     {
         "class": "quick_panel",
-        "row_padding": [5, 2],
+        "row_padding": [5, 5],
         "layer0.tint": [49, 52, 55],
         "layer0.opacity": 1.0
     },
@@ -714,8 +707,8 @@
     },
     {
         "class": "auto_complete",
-        "row_padding": [2, 2],
-        "layer0.tint": [30, 30, 30],
+        "row_padding": [5, 5],
+        "layer0.tint": [26, 28, 32],
         "layer0.opacity": 1.0,
         "dark_content": true
     },
@@ -749,7 +742,7 @@
         "class": "icon_button_control",
         "layer0.texture": "flatland-alt/assets/btn-group-middle.png",
         "layer0.opacity": 1.0,
-        "content_margin": [4, 4,4,5]
+        "content_margin": [5,4,5,5]
     },
     // Button group left
     {
@@ -757,7 +750,7 @@
         "attributes": ["left"],
         "layer0.texture": "flatland-alt/assets/btn-group-left.png",
         "layer0.opacity": 1.0,
-        "content_margin": [8,4,5,5]
+        "content_margin": [10,4,5,5]
     },
     // Button group right
     {
@@ -765,7 +758,7 @@
         "attributes": ["right"],
         "layer0.texture": "flatland-alt/assets/btn-group-right.png",
         "layer0.opacity": 1.0,
-        "content_margin": [4,4,8,5]
+        "content_margin": [5,4,10,]
     },
     // Button single
     {
@@ -773,7 +766,7 @@
         "attributes": ["left", "right"],
         "layer0.texture": "flatland-alt/assets/btn-single.png",
         "layer0.opacity": 1.0,
-        "content_margin": [8,4,8,5]
+        "content_margin": [10,4,10,5]
     },
 
 //
