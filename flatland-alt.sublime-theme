@@ -758,7 +758,7 @@
         "attributes": ["right"],
         "layer0.texture": "flatland-alt/assets/btn-group-right.png",
         "layer0.opacity": 1.0,
-        "content_margin": [5,4,10,]
+        "content_margin": [5,4,10]
     },
     // Button single
     {
