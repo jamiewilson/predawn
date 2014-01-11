@@ -1,12 +1,12 @@
-# Flatland-Alt
+# Flatland-MKS
 
 ## About
 
-Flatland-Alt is a *slightly* tweaked version of the [Flatland](https://github.com/thinkpixellab/flatland) theme and accompanying color scheme for Sublime Text 2 & 3. I **DO NOT** take any credit for the real work that was done by [The Pixel Lab](https://github.com/thinkpixellab).
+Flatland-MKS is a *slightly* tweaked version of the [Flatland-Alt](https://github.com/jamiewilson/flatland-alt) theme and accompanying color scheme for Sublime Text 2 & 3. We **DO NOT** take any credit for the real work that was done by [The Pixel Lab](https://github.com/thinkpixellab) nor [Jamie Wilson](https://github.com/jamiewilson).
 
 ## Tweaks
 
-There are only a few things different in Flatland-Alt:
+There are only a few things different in Flatland-MKS:
 
 1. There is only a dark version
 2. There are only square tabs, and they have been made bigger and more minimal
@@ -14,25 +14,25 @@ There are only a few things different in Flatland-Alt:
 4. The selection color has been changed to black
 5. A new icon has been designed to match
 
-![Screen Shot!](https://raw.github.com/jamiewilson/flatland-alt/master/screenshot.png)  
+![Screen Shot!](https://raw.github.com/jamiewilson/flatland-mks/master/screenshot.png)
 
-![Screen Shot!](https://raw.github.com/jamiewilson/flatland-alt/master/sublime-flatland-alt-icon.png)
+![Screen Shot!](https://raw.github.com/jamiewilson/flatland-mks/master/sublime-flatland-mks-icon.png)
 
-## Installation
-Flatland-Alt is a Sublime package. Currently, you must install it manually.
+## Installation (OS X)
+Flatland-mks is a Sublime package. Currently, you must install it manually.
 
-1. [Download the theme files](https://github.com/jamiewilson/flatland-alt/archive/master.zip)
-2. Unzip the files and rename the newly created folder to `flatland-alt`
-3. Copy the folder into the Sublime Text Packages folder. On a Mac that's located at Library > Application Support > Sublime Text > Packages. You can find that directory by selecting Preferences > Browse Packages...
-
+```bash
+cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/
+git clone https://github.com/makersquare/flatland-mks.git
+```
 
 ## Activating the Theme
 Activate the theme by modifying your user preferences to include the following:
 
 ```javascript
 {
-  "color_scheme": "Packages/flatland-alt/flatland-alt.tmTheme",
-  "theme": "flatland-alt.sublime-theme"
+  "color_scheme": "Packages/flatland-mks/flatland-mks.tmTheme",
+  "theme": "flatland-mks.sublime-theme"
 }
 
 ```
