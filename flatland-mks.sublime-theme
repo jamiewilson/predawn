@@ -681,7 +681,7 @@
     {
         "class": "quick_panel_score_label",
         "fg": [144, 146, 147],
-        "selected_fg": [122, 206, 255, 255],
+        "selected_fg": [122, 206, 255, 255]
     },
 
 //
