@@ -26,7 +26,7 @@
 				<string>#202020</string>
 
 				<key>selection</key>
-				<string>Black</string>
+				<string>#121212</string>
 
 				<key>findHighlight</key>
 				<string>#ffe792</string>
@@ -578,16 +578,16 @@
 			<key>name</key>
 			<string>html id</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.id.html, meta.attribute-with-value.id punctuation.separator, meta.attribute-with-value.id string.quoted</string>
+			<string>meta.attribute-with-value.id string.quoted</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFA200</string>
+				<string>#ed9673</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>html class</string>
+			<string>html attribute</string>
 			<key>scope</key>
 			<string>entity.other.attribute-name.html</string>
 			<key>settings</key>
@@ -604,7 +604,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#65A4A4</string>
+				<string>#549c7a</string>
 			</dict>
 		</dict>
 		<dict>
