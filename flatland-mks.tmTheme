@@ -867,6 +867,40 @@
 				<string>#d66c43</string>
 			</dict>
 		</dict>
+		<!-- Custom Slim Colors -->
+		<dict>
+			<key>name</key>
+			<string>Slim HTML Tags</string>
+			<key>scope</key>
+			<string>text.slim entity.name.tag</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#70CDA1</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Slim Embedded Ruby Source</string>
+			<key>scope</key>
+			<string>text.slim source.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#ffffff00</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Slim Embedded Other Source</string>
+			<key>scope</key>
+			<string>text.slim text</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#222326</string>
+			</dict>
+		</dict>
 
 
 	</array>
