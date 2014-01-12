@@ -26,7 +26,7 @@
 				<string>#202020</string>
 
 				<key>selection</key>
-				<string>#121212</string>
+				<string>#090909</string>
 
 				<key>findHighlight</key>
 				<string>#ffe792</string>
@@ -127,7 +127,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#888888</string>
+				<string>#909090</string>
 			</dict>
 		</dict>
 		<dict>
