@@ -29,7 +29,7 @@
 				<string>#50666f</string>
 
 				<key>findHighlight</key>
-				<string>#ffe792</string>
+				<string>#F18260</string>
 
 				<key>inactiveSelection</key>
 				<string>#3C3F42</string>
@@ -55,7 +55,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#798188</string>
+				<string>#666</string>
 			</dict>
 		</dict>
 	        <dict>
