@@ -13,7 +13,7 @@
         "tab_width": 260, 
         "tab_min_width": 100, 
         "tab_height": 60, 
-        "mouse_wheel_switch": true
+        "mouse_wheel_switch": false
     }, 
     {
         "class": "tabset_control", 
@@ -49,7 +49,7 @@
         // Hover tab state
         "class": "tab_control", 
         "attributes": ["hover"], 
-        "layer2.opacity": 1.0
+        "layer2.opacity": 0.5
     }, 
     {
         // Active tab state
@@ -597,7 +597,7 @@
         "layer0.inner_margin": [10, 10], 
         // Pressed button setup
         "layer1.texture": "flatland-alt/assets/btn-large-on.png", 
-        "layer1.opacity": 0.25, 
+        "layer1.opacity": 0.35, 
         "layer1.inner_margin": [10, 10]
     }, 
     {

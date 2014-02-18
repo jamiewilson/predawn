@@ -23,10 +23,13 @@
 				<string>#7a8288</string>
 
 				<key>lineHighlight</key>
-				<string>#202020</string>
+				<string>#1a1c20</string>
 
 				<key>selection</key>
-				<string>#50666f</string>
+				<string>#73797b85</string>
+
+				<key>selectionForeground</key>
+				<string>#FFFFFF</string>
 
 				<key>findHighlight</key>
 				<string>#F18260</string>
@@ -38,7 +41,7 @@
 				<string>#73797b75</string>
 
 				<key>guide</key>
-				<string>#73797b30</string>
+				<string>#73797b50</string>
 
 				<key>activeGuide</key>
 				<string>#73797b60</string>
@@ -55,7 +58,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#666</string>
+				<string>#73797b75</string>
 			</dict>
 		</dict>
 	        <dict>
