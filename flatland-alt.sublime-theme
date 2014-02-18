@@ -655,7 +655,7 @@
         "class": "quick_panel_row", 
         "layer0.texture": "flatland-alt/assets/quick-panel-row.png", 
         "layer0.inner_margin": [2, 2, 2, 2], 
-        "layer0.opacity": 1
+        "layer0.opacity": 1.0
     }, 
     {
         "class": "quick_panel_row", 
