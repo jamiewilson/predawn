@@ -11,14 +11,14 @@
         "content_margin": [0, 0, 0, 0], 
         "tab_overlap": 6, 
         "tab_width": 260, 
-        "tab_min_width": 48, 
-        "tab_height": 44, 
+        "tab_min_width": 100, 
+        "tab_height": 60, 
         "mouse_wheel_switch": false
     }, 
     {
         "class": "tabset_control", 
         "settings": ["mouse_wheel_switches_tabs"], 
-        "mouse_wheel_switch": true
+        "mouse_wheel_switch": false
     }, 
     // Tab element
     {
@@ -49,7 +49,7 @@
         // Hover tab state
         "class": "tab_control", 
         "attributes": ["hover"], 
-        "layer2.opacity": 1.0
+        "layer2.opacity": 0.5
     }, 
     {
         // Active tab state
@@ -340,7 +340,9 @@
         "class": "label_control", 
         "parents": [{"class": "panel_control"}], 
         "shadow_color": [201, 202, 203], 
-        "shadow_offset": [0, 0]
+        "shadow_offset": [0, 0],
+        "font.bold" : false,
+        "font.size": 13
     }, 
     // Button labels
     {
@@ -362,7 +364,6 @@
 //
 // TOOLTIP
 //
-    // TODO
     // Tooltip container
     {
         "class": "tool_tip_control", 
@@ -588,22 +589,22 @@
     // Standard buttons (used for Find / Replace panel)
     {
         "class": "button_control", 
-        "content_margin": [4, 6, 4, 5], 
-        "min_size": [69, 0], 
+        "content_margin": [15, 12], 
+        "min_size": [70, 0], 
         // Default button state
         "layer0.texture": "flatland-alt/assets/btn-large.png", 
-        "layer0.opacity": 1.0, 
-        "layer0.inner_margin": [6, 6], 
+        "layer0.opacity": 0.0, 
+        "layer0.inner_margin": [10, 10], 
         // Pressed button setup
         "layer1.texture": "flatland-alt/assets/btn-large-on.png", 
-        "layer1.opacity": 0.0, 
-        "layer1.inner_margin": [6, 6]
+        "layer1.opacity": 0.35, 
+        "layer1.inner_margin": [10, 10]
     }, 
     {
         // Pressed button state
         "class": "button_control", 
         "attributes": ["pressed", "hover"], 
-        "layer1.opacity": 1.0
+        "layer1.opacity": 1
     }, 
 
 //
@@ -612,10 +613,9 @@
 
     // Text input field item
     {
-        "class": "text_line_control", 
-        "layer0.texture": "flatland-alt/assets/text-field.png", 
-        "layer0.opacity": 1.0, 
-        "content_margin": [5, 5]
+        "class": "text_line_control",
+        "layer0.opacity": 1.0,
+        "content_margin": [10, 10]
     }, 
 
 //
@@ -633,7 +633,7 @@
     {
         "class": "overlay_control", 
         "layer0.texture": "flatland-alt/assets/overlay-bg.png", 
-        "layer0.inner_margin": [30, 30, 30, 30], // 9grid for the background
+        "layer0.inner_margin": [30, 30], // 9grid for the background
         "layer0.opacity": 1.0, 
         "layer1.texture": "flatland-alt/assets/quick-panel-background.png", 
         "layer1.inner_margin": [20, 40, 20, 20], 
@@ -647,7 +647,7 @@
 
     {
         "class": "quick_panel", 
-        "row_padding": [5, 5], 
+        "row_padding": [10, 10], 
         "layer0.tint": [49, 52, 55], 
         "layer0.opacity": 1.0
     }, 
@@ -741,32 +741,32 @@
     {
         "class": "icon_button_control", 
         "layer0.texture": "flatland-alt/assets/btn-group-middle.png", 
-        "layer0.opacity": 1.0, 
-        "content_margin": [5, 4, 5, 5]
+        "layer0.opacity": 0.35, 
+        "content_margin": [15, 12]
     }, 
     // Button group left
     {
         "class": "icon_button_control", 
         "attributes": ["left"], 
         "layer0.texture": "flatland-alt/assets/btn-group-left.png", 
-        "layer0.opacity": 1.0, 
-        "content_margin": [10, 4, 5, 5]
+        "layer0.opacity": 0.35,
+        "content_margin": [25, 12, 15, 12]
     }, 
     // Button group right
     {
         "class": "icon_button_control", 
         "attributes": ["right"], 
         "layer0.texture": "flatland-alt/assets/btn-group-right.png", 
-        "layer0.opacity": 1.0, 
-        "content_margin": [5, 4, 10, 5]
+        "layer0.opacity": 0.35,
+        "content_margin": [15, 12, 25, 12]
     }, 
     // Button single
     {
         "class": "icon_button_control", 
         "attributes": ["left", "right"], 
         "layer0.texture": "flatland-alt/assets/btn-single.png", 
-        "layer0.opacity": 1.0, 
-        "content_margin": [10, 4, 10, 5]
+        "layer0.opacity": 0.35,
+        "content_margin": [15, 12]
     }, 
 
 //
