@@ -38,13 +38,13 @@
 
         "layer1.texture": "flatland-alt/assets/tab-active.png",
         "layer1.inner_margin": [20, 4],
-        "layer1.opacity": 0.0,
+        "layer1.opacity": 0,
 
         // Hover Tab
 
         "layer2.texture": "flatland-alt/assets/tab-hover.png",
         "layer2.inner_margin": [20, 4],
-        "layer2.opacity": 0.0
+        "layer2.opacity": 0
     },
         // Tab close state
     {
@@ -62,9 +62,9 @@
     {
         "class": "tab_control",
         "attributes": ["selected"],
-        "layer0.opacity": 0.0,
+        "layer0.opacity": 0,
         "layer1.opacity": 1.0,
-        "layer2.opacity": 0.0
+        "layer2.opacity": 0
     },
         // Tab labels
     {
@@ -100,7 +100,7 @@
         // Tab close hover settings
 
         "layer1.texture": "flatland-alt/assets/tab-close-hover.png",
-        "layer1.opacity": 0.0
+        "layer1.opacity": 0
     },
         // Tab button size
     {
@@ -112,7 +112,7 @@
     {
         "class": "tab_close_button",
         "attributes": ["hover"],
-        "layer0.opacity": 0.0,
+        "layer0.opacity": 0,
         "layer1.opacity": 1.0
     },
         // Tab dirty button
@@ -121,14 +121,14 @@
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
         "layer0.texture": "flatland-alt/assets/tab-dirty.png",
         "layer0.opacity": 1.0,
-        "layer1.opacity": 0.0
+        "layer1.opacity": 0
     },
         // Tab dirty button hover
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
         "attributes": ["hover"],
-        "layer0.opacity": 0.0,
+        "layer0.opacity": 0,
         "layer1.opacity": 1.0
     },
         // Tab dirty button active
@@ -136,8 +136,8 @@
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
         "attributes": ["selected"],
-        "layer0.opacity": 0.0,
-        "layer1.opacity": 0.0
+        "layer0.opacity": 0,
+        "layer1.opacity": 0
     },
         // Tab close button hidden with highlight modified flag true
     {
@@ -155,7 +155,7 @@
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
         "content_margin": [8, 8],
         "layer0.opacity": 1.0,
-        "layer1.opacity": 0.0
+        "layer1.opacity": 0
     },
 
         //
@@ -168,20 +168,20 @@
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0,
         "layer1.texture": "flatland-alt/assets/fold-closed-pressed.png",
-        "layer1.opacity": 0.0,
+        "layer1.opacity": 0,
         "layer1.inner_margin": 0,
         "content_margin": [9, 7, 8, 6]
     },
     {
         "class": "fold_button_control",
         "attributes": ["hover"],
-        "layer0.opacity": 0.0,
+        "layer0.opacity": 0,
         "layer1.opacity": 0.75
     },
     {
         "class": "fold_button_control",
         "attributes": ["pressed"],
-        "layer0.opacity": 0.0,
+        "layer0.opacity": 0,
         "layer1.opacity": 1.0
     },
     {
@@ -196,6 +196,7 @@
         //
 
         // Standard vertical scroll bar
+
     {
         "class": "scroll_bar_control",
         "layer0.texture": "flatland-alt/assets/standard-scrollbar-vertical.png",
@@ -203,7 +204,9 @@
         "layer0.inner_margin": [0, 6],
         "blur": false
     },
+
         // Standard horizontal scroll bar
+
     {
         "class": "scroll_bar_control",
         "attributes": ["horizontal"],
@@ -212,14 +215,18 @@
         "layer0.inner_margin": [6, 0],
         "blur": false
     },
+
         // Standard scroll bar corner
+
     {
         "class": "scroll_corner_control",
         "layer0.texture": "flatland-alt/assets/standard-scrollbar-corner.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [1, 1]
     },
+
         // Standard vertical scroll puck
+
     {
         "class": "puck_control",
         "layer0.texture": "flatland-alt/assets/standard-puck-vertical.png",
@@ -228,7 +235,9 @@
         "content_margin": [8, 12],
         "blur": false
     },
+
         // Standard horizontal scroll puck
+
     {
         "class": "puck_control",
         "attributes": ["horizontal"],
@@ -244,6 +253,7 @@
         //
 
         // Overlay toggle scroll bar
+
     {
         "class": "scroll_area_control",
         "settings": ["overlay_scroll_bars"],
@@ -254,33 +264,41 @@
         "settings": ["!overlay_scroll_bars"],
         "overlay": false
     },
-         // Overlay vertical scroll bar
+
+    // Overlay vertical scroll bar
+
     {
         "class": "scroll_bar_control",
         "settings": ["overlay_scroll_bars"],
         "layer0.texture": "flatland-alt/assets/overlay-scrollbar-vertical.png",
         "layer0.inner_margin": [0, 5],
-        "blur": true
+        "blur": false
     },
-         // Overlay horizontal scroll bar
+
+    // Overlay horizontal scroll bar
+
     {
         "class": "scroll_bar_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["horizontal"],
         "layer0.texture": "flatland-alt/assets/overlay-scrollbar-horizontal.png",
         "layer0.inner_margin": [5, 0],
-        "blur": true
+        "blur": false
     },
-         // Overlay vertical puck
+
+    // Overlay vertical puck
+
     {
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
         "layer0.texture": "flatland-alt/assets/overlay-puck-vertical.png",
         "layer0.inner_margin": [0, 5],
         "content_margin": [5, 20],
-        "blur": true
+        "blur": false
     },
-        // Overlay horizontal puck
+
+    // Overlay horizontal puck
+
     {
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
@@ -288,16 +306,20 @@
         "layer0.texture": "flatland-alt/assets/overlay-puck-horizontal.png",
         "layer0.inner_margin": [5, 0],
         "content_margin": [20, 5],
-        "blur": true
+        "blur": false
     },
-        // Overlay light puck (for dark content)
+
+    // Overlay light puck (for dark content)
+
     {
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["dark"],
         "layer0.texture": "flatland-alt/assets/overlay-dark-puck-vertical.png"
     },
-        // Overlay light horizontal puck (for dark content)
+
+    // Overlay light horizontal puck (for dark content)
+
     {
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
@@ -428,7 +450,7 @@
         "class": "sidebar_tree",
         "row_padding": [15, 5],
         "indent": 10,
-        "indent_offset": 20,
+        "indent_offset": 25,
         "indent_top_level": false,
         "layer0.tint": [51, 51, 51],
         "layer0.opacity": 1.0
@@ -462,7 +484,7 @@
     {
         "class": "tree_row",
         "layer0.texture": "flatland-alt/assets/sidebar-row-selected.png",
-        "layer0.opacity": 0.0,
+        "layer0.opacity": 0,
         "layer0.inner_margin": 0
     },
         // Sidebar row selected
@@ -519,20 +541,20 @@
         "layer0.opacity": 0.25,
         "layer0.inner_margin": 0,
         "layer1.texture": "flatland-alt/assets/file-close-selected.png",
-        "layer1.opacity": 0.0,
+        "layer1.opacity": 0,
         "layer1.inner_margin": 0,
-        "content_margin": [8, 8]
+        "content_margin": [12, 8]
     },
     {
         "class": "close_button",
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
         "layer0.opacity": 1.0,
-        "layer1.opacity": 0.0
+        "layer1.opacity": 0
     },
     {
         "class": "close_button",
         "parents": [{"class": "tree_row", "attributes": ["hover", "selected"]}],
-        "layer0.opacity": 0.0,
+        "layer0.opacity": 0,
         "layer1.opacity": 1.0
     },
         // Sidebar file dirty
@@ -563,7 +585,7 @@
         // Sidebar group closed
     {
         "class": "disclosure_button_control",
-        "content_margin": [8, 8],
+        "content_margin": [12, 8],
         "layer0.texture": "flatland-alt/assets/group-closed.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0
@@ -611,7 +633,7 @@
         // Default button state
 
         "layer0.texture": "flatland-alt/assets/btn-large.png",
-        "layer0.opacity": 0.0,
+        "layer0.opacity": 0,
         "layer0.inner_margin": [10, 10],
 
         // Pressed button setup
@@ -671,7 +693,7 @@
     {
         "class": "quick_panel",
         "row_padding": [10, 10],
-        "layer0.tint": [40, 40, 40],
+        "layer0.tint": [60, 60, 60],
         "layer0.opacity": 1.0
     },
     {
@@ -747,7 +769,7 @@
     {
         "class": "table_row",
         "layer0.texture": "flatland-alt/assets/code-completion-row-selected.png",
-        "layer0.opacity": 0.0,
+        "layer0.opacity": 0,
         "layer0.inner_margin": [1, 1]
     },
     {
