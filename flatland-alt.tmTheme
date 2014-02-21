@@ -35,7 +35,7 @@
 				<string>#F18260</string>
 
 				<key>inactiveSelection</key>
-				<string>#3C3F42</string>
+				<string>#3C3C3C</string>
 
 				<key>gutter</key>
 				<string>#282828</string>
@@ -48,6 +48,9 @@
 
 				<key>activeGuide</key>
 				<string>#F1826050</string>
+
+				<key>minimapBorder</key>
+				<string>#F1826025</string>
 
 			</dict>
 		</dict>
@@ -709,7 +712,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#73817D</string>
+				<string>#777777</string>
 			</dict>
 		</dict>
 		<dict>
