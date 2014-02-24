@@ -19,7 +19,6 @@
 
 	// Whitespace, Matching, Copy & Auto-Complete
 
-	"auto_complete_commit_on_tab": true,
 	"copy_with_empty_selection": false,
 	"drag_text": false,
 	"match_selection": false,
@@ -29,8 +28,10 @@
 
 	// Interface & Behavior
 
+	"sidebar_default": true, // Replace default with xsmall, small, medium, large or xlarge
 	"close_windows_when_empty": false,
 	"draw_minimap_border": true,
+	"enable_tab_scrolling": false,
 	"open_files_in_new_window": false,
 	"overlay_scroll_bars": "enabled",
 	"preview_on_click": false,

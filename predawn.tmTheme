@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+
+<!-- The Predawn color scheme is a slightly altered version of the Flatland scheme. -->
+
 <plist version="1.0">
-
-<!-- This color scheme is mostly taken from the Flatland color scheme. -->
-
 <dict>
 	<key>name</key>
 	<string>Predawn</string>
@@ -12,7 +12,6 @@
 		<dict>
 			<key>settings</key>
 			<dict>
-
 				<key>background</key>
 				<string>#282828</string>
 
@@ -26,7 +25,7 @@
 				<string>#F18260</string>
 
 				<key>lineHighlight</key>
-				<string>#232323</string>
+				<string>#242424</string>
 
 				<key>selection</key>
 				<string>#4C4C4C</string>
@@ -34,14 +33,11 @@
 				<key>selectionForeground</key>
 				<string>#FFFFFF</string>
 
-				<key>findHighlight</key>
-				<string>#F18260</string>
-
 				<key>inactiveSelection</key>
 				<string>#3C3C3C</string>
 
-				<key>gutter</key>
-				<string>#282828</string>
+				<key>findHighlight</key>
+				<string>#F18260</string>
 
 				<key>gutterForeground</key>
 				<string>#4C4C4C</string>
@@ -54,7 +50,6 @@
 
 				<key>minimapBorder</key>
 				<string>#F1826025</string>
-
 			</dict>
 		</dict>
 		<dict>
@@ -70,7 +65,7 @@
 				<string>#777777</string>
 			</dict>
 		</dict>
-	        <dict>
+		<dict>
 			<key>name</key>
 			<string>Python Docstring</string>
 			<key>scope</key>
@@ -91,7 +86,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#b8d977</string>
+				<string>#F7EE8C</string>
 			</dict>
 		</dict>
 		<dict>
@@ -117,7 +112,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#fa9a4b</string>
+				<string>#FFB454</string>
 			</dict>
 		</dict>
 		<dict>
@@ -130,7 +125,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#F6F080</string>
+				<string>#F7EE8C</string>
 			</dict>
 		</dict>
 		<dict>
@@ -167,7 +162,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#999999</string>
+				<string>#FB9A4B</string>
 			</dict>
 		</dict>
 		<dict>
@@ -178,7 +173,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#F6F080</string>
+				<string>#FF4500</string>
 			</dict>
 		</dict>
 		<dict>
@@ -290,7 +285,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>C/C++ Preprocessor Line</string>
+			<string>C&#x2f;C++ Preprocessor Line</string>
 			<key>scope</key>
 			<string>other.preprocessor.c</string>
 			<key>settings</key>
@@ -301,7 +296,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>C/C++ Preprocessor Directive</string>
+			<string>C&#x2f;C++ Preprocessor Directive</string>
 			<key>scope</key>
 			<string>other.preprocessor.c entity</string>
 			<key>settings</key>
@@ -356,13 +351,13 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>css property-name:</string>
+			<string>css property-name: psuedos and attibutes</string>
 			<key>scope</key>
-			<string>support.type.property-name.css</string>
+			<string>support.type.property-name.css, entity.other.attribute-name.pseudo-element.css, entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.attribute.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#72AACA</string>
+				<string>#6999A8</string>
 			</dict>
 		</dict>
 		<dict>
@@ -373,7 +368,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#F6F080</string>
+				<string>#F7EE8C</string>
 			</dict>
 		</dict>
 		<dict>
@@ -395,7 +390,18 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#EDF080</string>
+				<string>#F7EE8C</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>css strings and urls</string>
+			<key>scope</key>
+			<string>source.css string.quoted.single, source.css string.quoted.double, source.css variable.parameter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#777777</string>
 			</dict>
 		</dict>
 		<dict>
@@ -461,6 +467,61 @@
 				<string>#41A83E</string>
 				<key>foreground</key>
 				<string>#B7D877</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>GitGutter deleted</string>
+			<key>scope</key>
+			<string>markup.deleted.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#EB939A</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>GitGutter changed</string>
+			<key>scope</key>
+			<string>markup.changed.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#72AACA</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>GitGutter inserted</string>
+			<key>scope</key>
+			<string>markup.inserted.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#B7D877</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>GitGutter ignored</string>
+			<key>scope</key>
+			<string>markup.ignored.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#798188</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>GitGutter untracked</string>
+			<key>scope</key>
+			<string>markup.untracked.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#798188</string>
 			</dict>
 		</dict>
 		<dict>
@@ -658,7 +719,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#F6F080</string>
+				<string>#F7EE8C</string>
 			</dict>
 		</dict>
 		<dict>
@@ -707,7 +768,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Doctype/XML Processing</string>
+			<string>Doctype&#x2f;XML Processing</string>
 			<key>scope</key>
 			<string>meta.tag.sgml.doctype.xml, declaration.sgml.html declaration.doctype, declaration.sgml.html declaration.doctype entity, declaration.sgml.html declaration.doctype string, declaration.xml-processing, declaration.xml-processing entity, declaration.xml-processing string, doctype</string>
 			<key>settings</key>
