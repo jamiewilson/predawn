@@ -1,12 +1,10 @@
 // Settings in here override those in "Default/Preferences.sublime-settings",
 // and are overridden in turn by file type specific settings.
 
-{
-
 	// Activating Predawn Theme & Color Scheme
-
+{
 	"theme": "predawn.sublime-theme",
-	"color_scheme": "Packages/predawn/predawn.tmTheme",
+	"color_scheme": "Packages/flatland-alt/predawn.tmTheme",
 
 	// Typography
 
