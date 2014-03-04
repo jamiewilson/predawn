@@ -7,6 +7,8 @@ Predawn is a minimal Sublime Text theme and a syntax color scheme. It was origin
 
 ![image](screenshots/screenshot.png)
 
+[View a larger screenshot ↗︎](https://raw.github.com/jamiewilson/predawn/master/screenshots/screenshot-large.png)
+
 ## Installation
 
 **Recommended**
