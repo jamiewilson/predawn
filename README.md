@@ -1,5 +1,5 @@
 # Predawn
-###A dark interface and syntax theme for Sublime Text, previously **Flatland-Alt**.
+###A dark interface and syntax theme for Sublime Text, previously called **Flatland-Alt**.
 
 ## About
 
