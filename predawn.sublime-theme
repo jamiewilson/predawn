@@ -374,7 +374,7 @@
         // Button labels
     {
         "class": "label_control",
-        "parents": [{"class": "button_control"}],
+        "parents": [{"class": "button_control"}]
     },
         // Status bar label
     {
@@ -612,7 +612,7 @@
 
         "layer0.texture": "Predawn/assets/btn-large-on.png",
         "layer0.opacity": 1,
-        "layer0.inner_margin": [10, 10],
+        "layer0.inner_margin": [10, 10]
     },
 
         //
