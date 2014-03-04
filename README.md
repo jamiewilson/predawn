@@ -11,7 +11,7 @@ Predawn is a minimal Sublime Text theme and a syntax color scheme. It was origin
 
 ## Installation
 
-**Recommended**
+**Recommended**  
 For easy installation, install with [Package Control](https://sublime.wbond.net/docs).
 
 1. `Cmd+Shift+P` (OS X) `Ctrl+Shift+P` (Win/Linux)
@@ -92,6 +92,6 @@ These are just a few of my other favorite options for Sublime Text:
 
 Also, I highly recommend these Sublime Text packages:
 
-[Sublime-CSS3](https://github.com/i-akhmadullin/Sublime-CSS3)
-[GitGutter](https://github.com/jisaacks/GitGutter)
-[Sidebar Enhancements](https://github.com/titoBouzout/SideBarEnhancements)
+[Sublime-CSS3](https://github.com/i-akhmadullin/Sublime-CSS3)  
+[GitGutter](https://github.com/jisaacks/GitGutter)  
+[Sidebar Enhancements](https://github.com/titoBouzout/SideBarEnhancements)  
