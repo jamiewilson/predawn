@@ -1,8 +1,8 @@
-=============================
+==============================
 
-Thanks for installing Pedawn!
+Thanks for installing Predawn!
 
-=============================
+==============================
 
 
 To activate the theme, add or replace your current theme settings with the code below.
