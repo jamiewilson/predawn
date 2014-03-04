@@ -493,7 +493,7 @@
         // Sidebar entry
     {
         "class": "sidebar_label",
-        "color": [210, 210, 210]
+        "color": [140, 140, 140]
     },
         // Sidebar folder entry
     {
@@ -504,13 +504,13 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "color": [255, 255, 255]
+        "color": [240, 240, 240]
     },
         // Sidebar entry selected
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "color": [255, 255, 255]
+        "color": [240, 240, 240]
     },
         // Sidebar file close
     {
