@@ -1,0 +1,233 @@
+@import url(http://fonts.googleapis.com/css?family=Alegreya:400italic);
+@import url(http://fonts.googleapis.com/css?family=Alegreya+SC);
+
+/*-----------------------------
+    Animation
+-----------------------------*/
+@keyframes fade-in {
+  from {opacity: 0;}
+  to {opacity: 1;}}
+
+@-webkit-keyframes fade-in {
+  from {opacity: 0;}
+  to {opacity: 1;}}
+
+@keyframes slideDown {
+  from {transform: translateY(-50px);}
+  to {transform: translateY(0px);}}
+
+@-webkit-keyframes slideDown {
+  from {-webkit-transform: translateY(-50px);}
+  to {-webkit-transform: translateY(0px);}}
+
+/*-----------------------------
+    Base Styles
+-----------------------------*/
+*
+  {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  }
+
+html
+  {
+  background: #313E42;
+  font-size: 100%;
+  height: 100%;
+  padding: 3%;
+  }
+
+body
+  {
+  margin: 0 auto;
+  max-width: 70rem;
+  }
+
+/*-----------------------------
+    Header
+-----------------------------*/
+header 
+  {
+  margin: 8% auto;
+  text-align: center;
+  max-width: 45rem;
+  animation: fade-in 250ms ease-in;
+  -webkit-animation: fade-in 2s ease;
+  }
+
+h1
+  {
+  color: #F18360;
+  font: 400 1.75em/1.1 "Alegreya SC", serif;
+  letter-spacing: .1rem;
+  -webkit-font-smoothing: antialiased;
+  }
+
+.italic
+  {
+  font: italic 400 1.75rem "Alegreya", serif;
+  margin-right: .1rem;
+  }
+
+p
+  {
+  color: rgba(255, 255, 255, 0.3);
+  font: 100 1.75rem "VerbCondExtraLight";
+  }
+
+p a
+  {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+  transition: color 500ms ease;
+  -webkit-transition: color 500ms ease;
+  }
+
+p a:hover
+  {
+  color: white;
+  }
+
+p span
+  {
+  display: block;
+  }
+
+.arrow
+  {
+  background: url(../images/arrow.svg);
+  background-size: contain;
+  height: 2rem;
+  opacity: .3;
+  width: 2rem;
+  display: block;
+  animation: slideDown 2s ease;
+  -webkit-animation: slideDown 2s ease;
+  margin: 4.5rem auto 3rem auto;
+  }
+
+/*-----------------------------
+    Websites
+-----------------------------*/
+section
+  {
+  display: inline-block;
+  margin-bottom: 5rem;
+  text-align: center;
+  animation: fade-in 2s ease-in;
+  -webkit-animation: fade-in 3s ease;
+  width: 100%;
+  transition: -webkit-transform 300ms cubic-bezier(.65, -0.65, .75, 2);
+  transition: transform 300ms cubic-bezier(.65, -0.65, .75, 2);
+  }
+
+section:hover
+  {
+  transform: translateY(-20px);
+  -webkit-transform: translateY(-20px);
+  -ms-transform: translateY(-20px);
+
+  }
+
+section p
+  {
+  font: 100 1.25rem "VerbCondExtraLight";
+  }
+
+.browser
+  {
+  background: #2C363A;
+  border-radius: 5px;
+  }
+
+.chrome
+  {
+  text-align: left;
+  padding: 15px;
+  }
+
+button
+  {
+  border: none;
+  width: 50px;
+  height: 10px;
+  background: url(../images/dots.svg);
+  outline: none;
+  }
+
+button span
+  {
+  color: white;
+  font: 100 .75rem/1 "VerbCondExtraLight";
+  left: 60px;
+  opacity: 0;
+  position: relative;
+  top: -1px;
+  transition: opacity 750ms ease;
+  -webkit-transition: opacity 750ms ease;
+  }
+
+button:hover span
+  {
+  opacity: .75;
+  }
+
+button:active
+  {
+  
+  }
+
+.navicon
+  {
+  width: 20px;
+  height: 13px;
+  background: url(../images/navicon.svg) no-repeat;
+  margin-top: 2px;
+  margin-left: 15px;
+  }
+
+.pull-right
+  {
+  float: right;
+  }
+
+.site
+  {
+  margin-bottom: 20px;
+  max-width: 100%;
+  }
+
+
+/*-----------------------------
+  Contact
+-----------------------------*/
+
+#contact p
+  {
+  color: rgba(255, 255, 255, 0.5);
+  }
+
+#contact a
+  {
+  color: #F18360;
+  }    
+
+/*-----------------------------
+    Fonts
+-----------------------------*/
+@font-face {
+  font-family: 'VerbCondExtralight';
+  src: url(../fonts/VerbCondExtralight.eot);
+  src: url(../fonts/VerbCondExtralight.eot?#iefix) format("embedded-opentype"), url(../fonts/VerbCondExtralight.woff) format("woff"), url(../fonts/VerbCondExtralight.ttf) format("truetype"); }
+
+/*-----------------------------
+    Media Queries
+-----------------------------*/
+@media only screen and (max-width: 320px) {
+  p {font: 100 1rem/1.4 "VerbCondExtraLight";}}
+    
+@media only screen and (max-width: 650px) {
+  p {font: 100 1.25rem "VerbCondExtraLight";}
+  p span {display: inline;}
+  section p {font: 100 1rem "VerbCondExtraLight";}}
