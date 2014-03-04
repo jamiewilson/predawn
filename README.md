@@ -46,7 +46,7 @@ for example:
 ![image](screenshots/sidebar.png)
 
 ## Dock Icons
-There are also some dock icons for you to choose from:
+There are also some [dock icons](/icons) for you to choose from:
 
 ![image](screenshots/icons.png)
 
