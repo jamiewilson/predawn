@@ -35,14 +35,14 @@ Add or replace your current theme settings with the code below.
 
 ## Tab Height Size Options
 
-You can change the vertical spacing of the sidebar by changing `default` to `small` or `medium`:
+You can change the height of the file tabs by adding either to your preferences file:
 
-
-	"tabs_default": true
-
-for example:
 
 	"tabs_small": true
+	
+OR
+
+	"tabs_medium": true
 
 
 ![image](screenshots/tabs.png)
