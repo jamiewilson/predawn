@@ -1,0 +1,9 @@
+1.1.0 adds two sizing options for your file tabs
+
+In your preferences:
+
+"tabs_small": true
+
+OR
+
+"tabs_medium": true
