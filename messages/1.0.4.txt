@@ -1,7 +1,1 @@
-============================
-
-Thanks for updating Predawn!
-
-============================
-
-* 1.0.4 adds some missed @2x-sized images
+1.0.4 adds some missed @2x-sized images
