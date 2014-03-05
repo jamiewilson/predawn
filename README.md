@@ -33,6 +33,20 @@ Add or replace your current theme settings with the code below.
 	"color_scheme": "Packages/Predawn/predawn.tmTheme"
 	}
 
+## Tab Height Size Options
+
+You can change the vertical spacing of the sidebar by changing `default` to `small` or `medium`:
+
+
+	"tabs_default": true
+
+for example:
+
+	"tabs_small": true
+
+
+![image](screenshots/tabs.png)
+
 ## Sidebar Size Options
 
 You can change the vertical spacing of the sidebar by changing `default` to `xsmall`, `small`, `medium`, `large`, `xlarge`:
