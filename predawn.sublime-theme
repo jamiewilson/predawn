@@ -403,7 +403,7 @@
     {
         "class": "tool_tip_control",
         "layer0.texture": "Predawn/assets/tooltip.png",
-        "layer0.inner_margin": [0],
+        "layer0.inner_margin": [1, 1],
         "layer0.opacity": 1.0,
         "content_margin": [10, 10]
     },
