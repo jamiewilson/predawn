@@ -1,5 +1,5 @@
 # Predawn
-###A dark interface and syntax theme for Sublime Text, previously called **Flatland-Alt**.
+###A dark interface and syntax theme for Sublime Text.
 
 ## About
 
@@ -18,7 +18,7 @@ For easy installation, install with [Package Control](https://sublime.wbond.net/
 2. type `Package Control: Install Package`
 3. Search `predawn`
 
-Of course your can always [install manually](https://github.com/jamiewilson/predawn/archive/master.zip), too.
+Of course, you can always [install manually](https://github.com/jamiewilson/predawn/archive/master.zip), too.
 
 ## Activating the Theme
 
