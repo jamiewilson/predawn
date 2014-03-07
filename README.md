@@ -1,5 +1,6 @@
 # Predawn
-###A dark interface and syntax theme for Sublime Text.
+
+### A dark interface and syntax theme for Sublime Text.
 
 ## About
 
@@ -7,7 +8,7 @@ Predawn is a minimal Sublime Text theme and a syntax color scheme. It was origin
 
 ![image](screenshots/screenshot.png)
 
-[View a larger screenshot ↗︎](https://raw.github.com/jamiewilson/predawn/master/screenshots/screenshot-large.png)
+[View a larger screenshot](https://raw.github.com/jamiewilson/predawn/master/screenshots/screenshot-large.png)
 
 ## Installation
 
@@ -39,7 +40,7 @@ You can change the height of the file tabs by adding either to your preferences 
 
 
 	"tabs_small": true
-	
+
 OR
 
 	"tabs_medium": true
@@ -61,6 +62,27 @@ for example:
 
 ![image](screenshots/sidebar.png)
 
+## Markdown Settings
+![markdown](screenshots/markdown.png)
+
+####To enable Predawn for Markdown
+
+First, **open a markdown(.md) file**, then navigate to `Sublime Text` > `Preferences` > `Settings - More` > `Syntax Specific - User`  in the menu bar.
+
+![syntax-specific](screenshots/syntax-specific.png)
+
+####Add to your current settings or replace with the following:
+
+	{
+		"color_scheme": "Packages/Predawn/predawn-markdown.tmTheme",
+		"draw_centered": true, // Centers the column in the window
+		"draw_indent_guides": false,
+		"font_size": 15,
+		"trim_trailing_white_space_on_save": false,
+		"word_wrap": true,
+		"wrap_width": 80  // Sets the # of characters per line
+	}
+	
 ## Dock Icons
 There are also some [dock icons](/icons) for you to choose from:
 
