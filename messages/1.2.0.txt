@@ -1,0 +1,4 @@
+1.2.0 Better Markdown syntax highlighting and some suggested settings.
+
+Learn more here:
+https://github.com/jamiewilson/predawn#markdown-settings
