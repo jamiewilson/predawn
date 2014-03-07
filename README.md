@@ -12,12 +12,16 @@ Predawn is a minimal Sublime Text theme and a syntax color scheme. It was origin
 
 ## Installation
 
-**Recommended**  
+###Recommended
 For easy installation, install with [Package Control](https://sublime.wbond.net/docs).
 
 1. `Cmd+Shift+P` (OS X) `Ctrl+Shift+P` (Win/Linux)
 2. type `Package Control: Install Package`
 3. Search `predawn`
+
+**Other Methods**
+
+You can clone the repo to your `Packages` folder. Just make sure the repo folder is named `Predawn`.
 
 Of course, you can always [install manually](https://github.com/jamiewilson/predawn/archive/master.zip), too.
 
