@@ -748,6 +748,50 @@
 				<string>#92BFBF</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: Keyword</string>
+			<key>scope</key>
+			<string>keyword.control.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#B4D388</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: Keyword</string>
+			<key>scope</key>
+			<string>keyword.operator.logical.php, string.quoted.single.php, keyword.operator.assignment.php, keyword.operator.class.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#999</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: Keyword</string>
+			<key>scope</key>
+			<string>punctuation.definition.variable.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#92BFBF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: Keyword</string>
+			<key>scope</key>
+			<string>variable.other.property.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ECEC89</string>
+			</dict>
+		</dict>
 	</array>
 </dict>
 </plist>
