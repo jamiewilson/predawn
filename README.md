@@ -65,13 +65,13 @@ for example:
 ## Markdown Settings
 ![markdown](screenshots/markdown.png)
 
-####To enable Predawn for Markdown
+#### To enable Predawn for Markdown
 
 First, **open a markdown(.md) file**, then navigate to `Sublime Text` > `Preferences` > `Settings - More` > `Syntax Specific - User`  in the menu bar.
 
 ![syntax-specific](screenshots/syntax-specific.png)
 
-####Add to your current settings or replace with the following:
+#### Add to your current settings or replace with the following:
 
 	{
 		"color_scheme": "Packages/Predawn/predawn-markdown.tmTheme",
