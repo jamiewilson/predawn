@@ -317,24 +317,6 @@
         "blur": false
     },
 
-        // Overlay light puck (for dark content)
-
-    {
-        "class": "puck_control",
-        "settings": ["overlay_scroll_bars"],
-        "attributes": ["dark"],
-        "layer0.texture": "Predawn/assets/overlay-dark-puck-vertical.png"
-    },
-
-        // Overlay light horizontal puck (for dark content)
-
-    {
-        "class": "puck_control",
-        "settings": ["overlay_scroll_bars"],
-        "attributes": ["horizontal", "dark"],
-        "layer0.texture": "Predawn/assets/overlay-dark-puck-horizontal.png"
-    },
-
         //
         // EMPTY WINDOW BACKGROUND
         //
@@ -528,7 +510,7 @@
         "layer0.texture": "Predawn/assets/file-close.png",
         "layer0.opacity": 0.25,
         "layer0.inner_margin": 0,
-        "layer1.texture": "Predawn/assets/file-close-selected.png",
+        "layer1.texture": "Predawn/assets/file-dirty.png",
         "layer1.opacity": 0,
         "layer1.inner_margin": 0,
         "content_margin": [12, 8]
@@ -536,39 +518,26 @@
     {
         "class": "close_button",
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.opacity": 1.0,
-        "layer1.opacity": 0
+        "layer0.opacity": 0.25
     },
     {
         "class": "close_button",
         "parents": [{"class": "tree_row", "attributes": ["hover", "selected"]}],
-        "layer0.opacity": 0,
-        "layer1.opacity": 1.0
+        "layer0.opacity": 0.25
     },
         // Sidebar file dirty
     {
         "class": "close_button",
         "attributes": ["dirty"],
-        "layer0.texture": "Predawn/assets/file-dirty.png",
-        "layer0.opacity": 1.0
+        "layer1.opacity": 1.0
     },
-    {
-        "class": "close_button",
-        "attributes": ["dirty"],
-        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.texture": "Predawn/assets/file-dirty-selected.png"
-    },
-    {
-        "class": "close_button",
-        "attributes": ["dirty"],
-        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.texture": "Predawn/assets/file-close.png"
-    },
+
         // Sidebar file close hover
     {
         "class": "close_button",
         "attributes": ["hover"],
-        "layer0.texture": "Predawn/assets/file-close-hover.png"
+        "layer0.opacity": 1.0,
+        "layer1.opacity": 0
     },
         // Sidebar group closed
     {
