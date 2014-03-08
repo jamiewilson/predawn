@@ -508,7 +508,7 @@
     {
         "class": "close_button",
         "layer0.texture": "Predawn/assets/file-close.png",
-        "layer0.opacity": 0.25,
+        "layer0.opacity": 0,
         "layer0.inner_margin": 0,
         "layer1.texture": "Predawn/assets/file-dirty.png",
         "layer1.opacity": 0,
