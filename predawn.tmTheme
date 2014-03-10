@@ -774,17 +774,6 @@
 			<key>name</key>
 			<string>PHP: Keyword</string>
 			<key>scope</key>
-			<string>punctuation.definition.variable.php</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#92BFBF</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>PHP: Keyword</string>
-			<key>scope</key>
 			<string>variable.other.property.php</string>
 			<key>settings</key>
 			<dict>
