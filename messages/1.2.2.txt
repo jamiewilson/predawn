@@ -1,0 +1,1 @@
+1.2.2 Improved syntax highlighting for scss and php

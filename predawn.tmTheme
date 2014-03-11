@@ -282,7 +282,7 @@
 			<key>name</key>
 			<string>css tag-name</string>
 			<key>scope</key>
-			<string>meta.selector.css entity.name.tag</string>
+			<string>meta.selector.css entity.name.tag, entity.name.tag.scss, source.scss entity.other.attribute-name.pseudo-class.css, keyword.control.at-rule.include.scss</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -293,7 +293,7 @@
 			<key>name</key>
 			<string>css#id</string>
 			<key>scope</key>
-			<string>meta.selector.css entity.other.attribute-name.id</string>
+			<string>meta.selector.css entity.other.attribute-name.id, entity.name.tag.reference.scss</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -304,7 +304,7 @@
 			<key>name</key>
 			<string>css.class</string>
 			<key>scope</key>
-			<string>meta.selector.css entity.other.attribute-name.class</string>
+			<string>meta.selector.css entity.other.attribute-name.class, source.scss entity.other.attribute-name.class.css, keyword.other.default.scss</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -315,7 +315,7 @@
 			<key>name</key>
 			<string>css property-name: psuedos and attibutes</string>
 			<key>scope</key>
-			<string>support.type.property-name.css, entity.other.attribute-name.pseudo-element.css, entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.attribute.css</string>
+			<string>support.type.property-name.css, entity.other.attribute-name.pseudo-element.css, entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.attribute.css, variable.scss</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
