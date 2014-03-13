@@ -761,7 +761,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>PHP: Keyword</string>
+			<string>PHP: Keyword Operator</string>
 			<key>scope</key>
 			<string>keyword.operator.logical.php, keyword.operator.assignment.php, keyword.operator.class.php</string>
 			<key>settings</key>
@@ -772,13 +772,24 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>PHP: Keyword</string>
+			<string>PHP: Variable</string>
 			<key>scope</key>
 			<string>variable.other.property.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#ECEC89</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: Strings</string>
+			<key>scope</key>
+			<string>string.regexp.single-quoted.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#BDDCDC</string>
 			</dict>
 		</dict>
 	</array>
