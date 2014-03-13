@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 
+<!--
+
+COLOR KEY
+
+#cf5340 - Red
+#f18260 - Predawn Orange
+#f49d62 - Orange
+#ecec89 - Yellow
+#92bfbf - Blue
+#bddcdc - Light Blue
+#b4d388 - Green
+
+#151515 - Black
+#252525 - Grey 8
+#282828 - Grey 7
+#3c3c3c - Grey 6
+#4c4c4c - Grey 5
+#777777 - Grey 4
+#999999 - Grey 3
+#dddddd - Grey 2
+#f1f1f1 - Grey 1
+
+-->
+
 <plist version="1.0">
 <dict>
 	<key>name</key>
