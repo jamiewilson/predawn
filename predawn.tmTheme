@@ -763,7 +763,7 @@
 			<key>name</key>
 			<string>PHP: Keyword</string>
 			<key>scope</key>
-			<string>keyword.operator.logical.php, string.quoted.single.php, keyword.operator.assignment.php, keyword.operator.class.php</string>
+			<string>keyword.operator.logical.php, keyword.operator.assignment.php, keyword.operator.class.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
