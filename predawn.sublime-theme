@@ -604,7 +604,7 @@
         "class": "text_line_control",
         "layer0.texture": "Predawn/assets/text-field.png",
         "layer0.opacity": 1,
-        "content_margin": [10, 12]
+        "content_margin": [10, 14]
     },
 
         //
