@@ -366,6 +366,7 @@
     {
         "class": "label_control",
         "settings": ["findreplace_small"],
+        "parents": [{"class": "panel_control"}],
         "font.size": 11
     },
         // Button labels
@@ -412,6 +413,11 @@
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [2, 2],
         "content_margin": [15, 5, 5, 5]
+    },
+    {
+        "class": "status_bar",
+        "settings": ["findreplace_small"],
+        "content_margin": [14, 4, 4, 4]
     },
     {
         "class": "status_button",
@@ -619,7 +625,7 @@
     {
         "class": "text_line_control",
         "settings": ["findreplace_small"],
-        "content_margin": [4, 5, 15, 4]
+        "content_margin": [4, 2, 15, 2]
     },
 
         //
@@ -751,7 +757,7 @@
     {
         "class": "icon_button_control",
         "settings": ["findreplace_small"],
-        "content_margin": [12, 5, 8, 5]
+        "content_margin": [12, 4, 8, 5]
     },
         // Button group left
     {
@@ -765,7 +771,7 @@
         "class": "icon_button_control",
         "attributes": ["left"],
         "settings": ["findreplace_small"],
-        "content_margin": [12, 5, 8, 5]
+        "content_margin": [12, 4, 8, 5]
     },
         // Button group right
     {
@@ -779,7 +785,7 @@
         "class": "icon_button_control",
         "attributes": ["right"],
         "settings": ["findreplace_small"],
-        "content_margin": [9, 5, 12, 5]
+        "content_margin": [9, 4, 12, 5]
     },
         // Button single
     {
@@ -793,7 +799,7 @@
         "class": "icon_button_control",
         "attributes": ["left", "right"],
         "settings": ["findreplace_small"],
-        "content_margin": [10, 5, 10, 5]
+        "content_margin": [10, 4, 10, 5]
     },
 
         //
