@@ -172,9 +172,9 @@ COLOR KEY
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Invalid</string>
+			<string>Red</string>
 			<key>scope</key>
-			<string>invalid</string>
+			<string>invalid, keyword.other.important.scss</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -306,7 +306,7 @@ COLOR KEY
 			<key>name</key>
 			<string>css tag-name</string>
 			<key>scope</key>
-			<string>meta.selector.css entity.name.tag, entity.name.tag.scss, source.scss entity.other.attribute-name.pseudo-class.css, keyword.control.at-rule.include.scss</string>
+			<string>meta.selector.css entity.name.tag, entity.name.tag.scss, source.scss entity.other.attribute-name.pseudo-class.scss, keyword.control.at-rule.include.scss, entity.name.tag.wildcard.scss </string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -317,7 +317,7 @@ COLOR KEY
 			<key>name</key>
 			<string>css#id</string>
 			<key>scope</key>
-			<string>meta.selector.css entity.other.attribute-name.id, entity.name.tag.reference.scss</string>
+			<string>meta.selector.css entity.other.attribute-name.id, meta.selector.scss entity.other.attribute-name.id, entity.name.tag.reference.scss</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -339,7 +339,7 @@ COLOR KEY
 			<key>name</key>
 			<string>css property-name: psuedos and attibutes</string>
 			<key>scope</key>
-			<string>support.type.property-name.css, entity.other.attribute-name.pseudo-element.css, entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.attribute.css, variable.scss</string>
+			<string>support.type.property-name.css, support.type.property-name.scss, entity.other.attribute-name.pseudo-element.css, entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.attribute.css, variable.scss, meta.property-name.scss</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -350,7 +350,7 @@ COLOR KEY
 			<key>name</key>
 			<string>css property-value;</string>
 			<key>scope</key>
-			<string>meta.property-group support.constant.property-value.css, meta.property-value support.constant.property-value.css</string>
+			<string>meta.property-group support.constant.property-value.css, meta.property-value support.constant.property-value.css, meta.property-group support.constant.property-value.scss, meta.property-value support.constant.property-value.scss, meta.property-list meta.property-value.scss</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -383,7 +383,7 @@ COLOR KEY
 			<key>name</key>
 			<string>css strings and urls</string>
 			<key>scope</key>
-			<string>source.css string.quoted.single, source.css string.quoted.double, source.css variable.parameter</string>
+			<string>source.css string.quoted.single, source.scss string.quoted.single, source.css string.quoted.double, source.scss string.quoted.double, source.css variable.parameter, variable.parameter.url.scss, string.unquoted.attribute-value.scss, string.unquoted.attribute-value.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -618,15 +618,37 @@ COLOR KEY
 				<string>#92BFBF</string>
 			</dict>
 		</dict>
+			<dict>
+			<key>name</key>
+			<string>scss terminators</string>
+			<key>scope</key>
+			<string>punctuation.section.function.scss, punctuation.terminator.rule.scss, punctuation.separator.key-value.scss</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F1F1F1</string>
+			</dict>
+		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS @import</string>
+			<string>@-rules</string>
 			<key>scope</key>
-			<string>keyword.control.at-rule.import.css</string>
+			<string>keyword.control.at-rule.import.css, keyword.control.at-rule.import.scss, keyword.control.at-rule.keyframes.css, keyword.control.at-rule.keyframes.scss</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#ECEC89</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>@media</string>
+			<key>scope</key>
+			<string>meta.at-rule.media.css, meta.at-rule.media.scss</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#f49d62</string>
 			</dict>
 		</dict>
 		<dict>
