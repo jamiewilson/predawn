@@ -52,6 +52,15 @@ OR
 
 ![image](screenshots/tabs.png)
 
+## Find & Replace Small Size Option
+
+You can change the height of the Find/Replace inputs by adding the following to preferences file:
+
+
+	"findreplace_small": true
+
+![image](screenshots/find-replace.png)
+
 ## Sidebar Size Options
 
 You can change the vertical spacing of the sidebar by changing `default` to `xsmall`, `small`, `medium`, `large`, `xlarge`:
