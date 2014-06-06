@@ -624,8 +624,9 @@
     },
     {
         "class": "text_line_control",
+        "parents": [{"class": "panel_control"}],
         "settings": ["findreplace_small"],
-        "content_margin": [4, 2, 15, 2]
+        "content_margin": [4, 5, 15, 4]
     },
 
         //
