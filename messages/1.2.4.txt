@@ -1,1 +1,5 @@
-1.2.3 Reduced font size of console and search input to 12pt from 15pt
+1.2.4
+
+1. Added bett syntax highlighting for scss
+2. Added Find/Replace small size option (thanks @NicoSantangelo!)
+   Make sure to manually adjust the height of the panel to adjust them to the new sizes!
