@@ -99,7 +99,13 @@ img {
 
   .twitter-share-button,
   .gh-button {
-    display: none;
+    position: static;
+    display: block;
+    margin: 10% auto;
+    
+  }
+  .gh-button {
+    width: 150px !important;
   }
 
 }
