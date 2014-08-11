@@ -95,7 +95,7 @@ img {
     Mobile - Removing Share buttons for now.
 -----------------------------*/
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 900px) {
 
   .twitter-share-button,
   .gh-button {
