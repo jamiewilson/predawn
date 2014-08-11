@@ -1,0 +1,8 @@
+1.2.5
+
+1. Added support for Folder Icons, Loading Spinner, and Filetypes in Sidebar for latest Dev Builds
+2. Resent (Transient) Tabs in Italic
+3. Slight changes to tab colors
+4. Reduced Tab font size so certain text doesn't get cut off
+5. Change color of non-overlay horizontal scrollbar
+6. Made line highlight slightly darker

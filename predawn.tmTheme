@@ -14,6 +14,7 @@ COLOR KEY
 #b4d388 - Green
 
 #151515 - Black
+#232323 - Grey 9
 #252525 - Grey 8
 #282828 - Grey 7
 #3c3c3c - Grey 6
@@ -47,7 +48,7 @@ COLOR KEY
 				<string>#F18260</string>
 
 				<key>lineHighlight</key>
-				<string>#252525</string>
+				<string>#232323</string>
 
 				<key>selection</key>
 				<string>#4C4C4C</string>
