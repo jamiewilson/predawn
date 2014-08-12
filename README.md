@@ -1,6 +1,6 @@
 # Predawn
 
-### A dark interface and syntax theme for Sublime Text.
+### A dark interface and syntax theme for Sublime Text & Atom.
 
 ## About
 
