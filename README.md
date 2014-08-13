@@ -4,7 +4,7 @@
 
 ## About
 
-Predawn is a minimal Sublime Text theme and a syntax color scheme. It was originally just a slightly tweaked version (called Flatland-Alt) of the [Flatland](https://github.com/thinkpixellab/flatland) theme, which itself is a flat reworking of [Soda](https://github.com/buymeasoda/soda-theme/). I decided to keep going with cusomization and rework the entire theme. But I owe a lot to Flatland and Soda. Thanks guys!
+Predawn is a minimal Sublime Text theme and a syntax color scheme. It was originally just a slightly tweaked version (called Flatland-Alt) of the [Flatland](https://github.com/thinkpixellab/flatland) theme, which itself is a flat reworking of [Soda](https://github.com/buymeasoda/soda-theme/). I decided to keep going with customization and rework the entire theme. But I owe a lot to Flatland and Soda. Thanks guys!
 
 ![image](screenshots/screenshot.png)
 
