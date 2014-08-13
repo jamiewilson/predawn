@@ -99,7 +99,7 @@ First, **open a markdown(.md) file**, then navigate to `Sublime Text` > `Prefere
 	}
 	
 ## Dock Icons
-There are also some [dock icons](/icons) for you to choose from:
+There are also some [dock icons](/dock-icons) for you to choose from:
 
 ![image](screenshots/icons.png)
 
