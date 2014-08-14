@@ -1,0 +1,4 @@
+1.2.7
+
+1. Selected Folder icon size correction
+2. Made unselected file icons semi-transparent
