@@ -23,7 +23,7 @@ Or from the command-line run:
 
 and
 
-	apm install predawn-syntaxt
+	apm install predawn-syntax
 
 
 _Also, you can view on the repo on Atom.io at http://atom.io/packages/predawn-ui_
