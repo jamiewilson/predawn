@@ -384,7 +384,7 @@
         "class": "label_control",
         "parents": [{"class": "status_bar"}],
         "color": [115, 115, 115],
-        "font.bold" : false
+        "font.bold": false
     },
 
         //
@@ -396,9 +396,8 @@
     {
         "class": "tool_tip_control",
         "layer0.texture": "Predawn/assets/tooltip.png",
-        "layer0.inner_margin": [1, 1],
         "layer0.opacity": 1.0,
-        "content_margin": [10, 10]
+        "content_margin": [10, 5]
     },
         // Tooltip content
     {
@@ -440,14 +439,14 @@
         "layer0.tint": [51, 51, 51],
         "layer0.opacity": 1.0,
         "layer0.draw_center": false,
-        "layer0.inner_margin": [0, 0, 0, 0],
+        "layer0.inner_margin": 0,
         "content_margin": [0, 10, 0, 0]
     },
         // Sidebar tree
     {
         "class": "sidebar_tree",
         "row_padding": [15, 5],
-        "indent": 5,
+        "indent": 10,
         "indent_offset": 20,
         "indent_top_level": false,
         "layer0.tint": [51, 51, 51],
@@ -483,8 +482,7 @@
     {
         "class": "tree_row",
         "layer0.texture": "Predawn/assets/sidebar-row-selected.png",
-        "layer0.opacity": 0,
-        "layer0.inner_margin": 0
+        "layer0.opacity": 0
     },
         // Sidebar row selected
     {
@@ -531,10 +529,8 @@
         "class": "close_button",
         "layer0.texture": "Predawn/assets/file-close.png",
         "layer0.opacity": 0.25,
-        "layer0.inner_margin": 0,
         "layer1.texture": "Predawn/assets/file-dirty.png",
         "layer1.opacity": 0,
-        "layer1.inner_margin": 0,
         "content_margin": [8, 8]
     },
     {
@@ -580,7 +576,7 @@
         "layer0.texture": "Predawn/assets/group-closed-selected.png"
     },
 
-        // Sidebar Folders Cpen
+        // Sidebar Folders Open
 
     {
         "class": "disclosure_button_control",
@@ -613,8 +609,14 @@
     {
         "class": "icon_file_type",
         // layer0.texture is filled in by code with the relevant icon name
-        "layer0.opacity": 1.0,
+        "layer0.opacity": 0.6,
         "content_margin": [8, 8]
+    },
+
+    {
+        "class": "icon_file_type",
+        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+        "layer0.opacity": 1.0
     },
 
         //
