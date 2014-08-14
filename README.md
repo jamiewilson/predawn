@@ -10,7 +10,27 @@ Predawn is a minimal Sublime Text theme and a syntax color scheme. It was origin
 
 [View a larger screenshot](https://raw.github.com/jamiewilson/predawn/master/screenshots/screenshot-large.png)
 
-## Installation
+## Installation for [Atom](https://atom.io/packages/predawn-ui)
+
+Search for `predawn` in the Packages section of your Atom settings tab. Install both:
+
+1. `predawn-ui`
+2. `predawn-syntax`
+
+Or from the command-line run:
+
+	apm install predawn-ui
+
+and
+
+	apm install predawn-syntaxt
+
+
+_Also, you can view on the repo on Atom.io at http://atom.io/packages/predawn-ui_
+
+---
+
+## Installation for [Sublime Text](https://sublime.wbond.net/packages/Predawn)
 
 ###Recommended
 For easy installation, install with [Package Control](https://sublime.wbond.net/docs).
@@ -37,6 +57,7 @@ Add or replace your current theme settings with the code below.
 	"theme": "predawn.sublime-theme",
 	"color_scheme": "Packages/Predawn/predawn.tmTheme"
 	}
+
 
 ## Tab Height Size Options
 
@@ -97,7 +118,7 @@ First, **open a markdown(.md) file**, then navigate to `Sublime Text` > `Prefere
 		"word_wrap": true,
 		"wrap_width": 80  // Sets the # of characters per line
 	}
-	
+
 ## Dock Icons
 There are also some [dock icons](/dock-icons) for you to choose from:
 
