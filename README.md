@@ -35,8 +35,8 @@ _Also, you can view on the repo on Atom.io at http://atom.io/packages/predawn-ui
 ###Recommended
 For easy installation, install with [Package Control](https://sublime.wbond.net/docs).
 
-1. `Cmd+Shift+P` (OS X) `Ctrl+Shift+P` (Win/Linux)
-2. type `Package Control: Install Package`
+1. <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> (OS X) <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> (Win/Linux)
+2. Type `Package Control: Install Package`
 3. Search `predawn`
 
 **Other Methods**
@@ -164,6 +164,6 @@ These are just a few of my other favorite options for Sublime Text:
 
 Also, I highly recommend these Sublime Text packages:
 
-[Sublime-CSS3](https://github.com/i-akhmadullin/Sublime-CSS3)  
-[GitGutter](https://github.com/jisaacks/GitGutter)  
-[Sidebar Enhancements](https://github.com/titoBouzout/SideBarEnhancements)  
+* [Sublime-CSS3](https://github.com/i-akhmadullin/Sublime-CSS3)  
+* [GitGutter](https://github.com/jisaacks/GitGutter)  
+* [Sidebar Enhancements](https://github.com/titoBouzout/SideBarEnhancements)  
