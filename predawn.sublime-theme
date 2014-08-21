@@ -440,14 +440,14 @@
         "layer0.opacity": 1.0,
         "layer0.draw_center": false,
         "layer0.inner_margin": 0,
-        "content_margin": [0, 10, 0, 0]
+        "content_margin": [0, 20, 0, 0]
     },
         // Sidebar tree
     {
         "class": "sidebar_tree",
-        "row_padding": [15, 5],
-        "indent": 10,
-        "indent_offset": 20,
+        "row_padding": [25, 5],
+        "indent": 20,
+        "indent_offset": 0,
         "indent_top_level": false,
         "layer0.tint": [51, 51, 51],
         "layer0.opacity": 1.0
@@ -509,7 +509,7 @@
     },
     {
         "class": "sidebar_label",
-        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+        "parents": [{"class": "tree_row", "attributes": [ "hover"]}],
         "color": [240, 240, 240]
     },
         // Sidebar entry selected
@@ -561,19 +561,8 @@
 
     {
         "class": "disclosure_button_control",
-        "content_margin": [9, 8],
-        "layer0.texture": "Predawn/assets/group-closed.png",
-        "layer0.opacity": 1.0
-    },
-    {
-        "class": "disclosure_button_control",
-        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.texture": "Predawn/assets/group-closed.png"
-    },
-    {
-        "class": "disclosure_button_control",
-        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.texture": "Predawn/assets/group-closed-selected.png"
+        "content_margin": [0, 0],
+        "layer0.opacity": 0
     },
 
         // Sidebar Folders Open
@@ -581,27 +570,16 @@
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Predawn/assets/group-open.png"
-    },
-    {
-        "class": "disclosure_button_control",
-        "attributes": ["expanded"],
-        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.texture": "Predawn/assets/group-open.png"
-    },
-    {
-        "class": "disclosure_button_control",
-        "attributes": ["expanded"],
-        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.texture": "Predawn/assets/group-open-selected.png"
+        "layer0.texture": "Predawn/icons/folder_open.png"
     },
 
          // Hides Space for Default Folder Icons
 
     {
         "class": "icon_folder",
-        "content_margin": [0, 0],
-        "layer0.opacity": 0
+        "content_margin": [8, 8],
+        "layer0.texture": "Predawn/icons/folder.png",
+        "layer0.opacity": 1
     },
 
         // Sidebar file icons
@@ -609,10 +587,14 @@
     {
         "class": "icon_file_type",
         // layer0.texture is filled in by code with the relevant icon name
-        "layer0.opacity": 0.6,
+        "layer0.opacity": 0.3,
         "content_margin": [8, 8]
     },
-
+    {
+        "class": "icon_file_type",
+        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+        "layer0.opacity": 1.0
+    },
     {
         "class": "icon_file_type",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
