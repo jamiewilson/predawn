@@ -440,12 +440,12 @@
         "layer0.opacity": 1.0,
         "layer0.draw_center": false,
         "layer0.inner_margin": 0,
-        "content_margin": [0, 20, 0, 0]
+        "content_margin": [0, 15, 0, 0]
     },
         // Sidebar tree
     {
         "class": "sidebar_tree",
-        "row_padding": [25, 5],
+        "row_padding": [30, 5],
         "indent": 20,
         "indent_offset": 0,
         "indent_top_level": false,
@@ -455,28 +455,28 @@
     {
         "class": "sidebar_tree",
         "settings": ["sidebar_xsmall"],
-        "row_padding": [10, 2]
+        "row_padding": [30, 2]
     },
     {
         "class": "sidebar_tree",
         "settings": ["sidebar_small"],
-        "row_padding": [10, 3]
+        "row_padding": [30, 3]
     },
     {
         "class": "sidebar_tree",
         "settings": ["sidebar_medium"],
-        "row_padding": [10, 4]
+        "row_padding": [30, 4]
     },
 
     {
         "class": "sidebar_tree",
         "settings": ["sidebar_large"],
-        "row_padding": [20, 6]
+        "row_padding": [30, 6]
     },
     {
         "class": "sidebar_tree",
         "settings": ["sidebar_xlarge"],
-        "row_padding": [20, 8]
+        "row_padding": [30, 8]
     },
         // Sidebar rows
     {
