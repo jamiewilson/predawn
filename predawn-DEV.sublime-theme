@@ -445,7 +445,7 @@
         // Sidebar tree
     {
         "class": "sidebar_tree",
-        "row_padding": [30, 5],
+        "row_padding": [25, 5],
         "indent": 20,
         "indent_offset": 0,
         "indent_top_level": false,
@@ -455,17 +455,17 @@
     {
         "class": "sidebar_tree",
         "settings": ["sidebar_xsmall"],
-        "row_padding": [30, 2]
+        "row_padding": [25, 2]
     },
     {
         "class": "sidebar_tree",
         "settings": ["sidebar_small"],
-        "row_padding": [30, 3]
+        "row_padding": [25, 3]
     },
     {
         "class": "sidebar_tree",
         "settings": ["sidebar_medium"],
-        "row_padding": [30, 4]
+        "row_padding": [25, 4]
     },
 
     {
