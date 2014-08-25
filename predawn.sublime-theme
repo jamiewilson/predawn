@@ -570,13 +570,13 @@
     {
         "class": "icon_folder",
         "content_margin": [8, 8],
-        "layer0.texture": "Predawn/icons/folder.png",
+        "layer0.texture": "Predawn/assets/folder.png",
         "layer0.opacity": 1.0
     },
         {
         "class": "icon_folder",
         "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
-        "layer0.texture": "Predawn/icons/folder_open.png",
+        "layer0.texture": "Predawn/assets/folder_open.png",
         "layer0.opacity": 1.0
     },
 
