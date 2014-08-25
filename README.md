@@ -51,19 +51,22 @@ Open your user settings file `preferences.sublime-settings` as shown below:
 
 ![image](screenshots/activate.png)
 
-Add or replace your current theme settings with the code below.
+To activate the theme, add or replace your current theme settings with the code below.
 
 	{
-	"theme": "predawn.sublime-theme",
-	"color_scheme": "Packages/Predawn/predawn.tmTheme"
+	  "theme": "predawn.sublime-theme",
+	  "color_scheme": "Packages/Predawn/predawn.tmTheme"
 	}
 
-**Or, For Sublime Text 2**
+FOR ALL **[DEV BUILDS 3062](http://www.sublimetext.com/3dev)+** use,
 
 	{
-	"theme": "predawn.sublime-theme",
-	"color_scheme": "Packages/Predawn/predawnST2.tmTheme"
+	    "theme": "predawn.sublime-theme",
+	    "color_scheme": "Packages/Predawn/predawn-DEV.tmTheme"
 	}
+
+
+*** IMPORTANT - MAKE SURE TO RESTART SUBLIME AFTER INSTALLING AND ACTIVATING PREDAWN ***
 
 ## Tab Height Size Options
 
