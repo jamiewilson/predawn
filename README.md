@@ -47,6 +47,8 @@ Of course, you can always [install manually](https://github.com/jamiewilson/pred
 
 ## Activating the Theme
 
+_Note: File icons are only supported for **[DEV BUILDS 3062](http://www.sublimetext.com/3dev)+**._
+
 Open your user settings file `preferences.sublime-settings` as shown below:
 
 ![image](screenshots/activate.png)
