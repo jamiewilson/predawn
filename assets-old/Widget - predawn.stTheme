@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>author</key>
+	<string>Jamie Wilson</string>
+	<key>comment</key>
+	<string>Predawn, a subtle Sublime Text Theme</string>
+	<key>name</key>
+	<string>Predawn</string>
+	<key>settings</key>
+	<array>
+		<dict>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#282828</string>
+				<key>caret</key>
+				<string>#F18260</string>
+				<key>foreground</key>
+				<string>#999999</string>
+				<key>invisibles</key>
+				<string>#333333</string>
+				<key>selection</key>
+				<string>#4C4C4C</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
