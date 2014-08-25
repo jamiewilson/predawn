@@ -445,9 +445,9 @@
         // Sidebar tree
     {
         "class": "sidebar_tree",
-        "row_padding": [30, 5],
+        "row_padding": [20, 5],
         "indent": 20,
-        "indent_offset": 0,
+        "indent_offset": 18,
         "indent_top_level": false,
         "layer0.tint": [51, 51, 51],
         "layer0.opacity": 1.0
@@ -455,28 +455,28 @@
     {
         "class": "sidebar_tree",
         "settings": ["sidebar_xsmall"],
-        "row_padding": [30, 2]
+        "row_padding": [20, 2]
     },
     {
         "class": "sidebar_tree",
         "settings": ["sidebar_small"],
-        "row_padding": [30, 3]
+        "row_padding": [20, 3]
     },
     {
         "class": "sidebar_tree",
         "settings": ["sidebar_medium"],
-        "row_padding": [30, 4]
+        "row_padding": [20, 4]
     },
 
     {
         "class": "sidebar_tree",
         "settings": ["sidebar_large"],
-        "row_padding": [30, 6]
+        "row_padding": [20, 6]
     },
     {
         "class": "sidebar_tree",
         "settings": ["sidebar_xlarge"],
-        "row_padding": [30, 8]
+        "row_padding": [20, 8]
     },
         // Sidebar rows
     {
@@ -560,7 +560,7 @@
         // Hides Expand Arrow
 
     {
-        "class": "disclosure_button_control",
+        "class": "icon_folder",
         "content_margin": [0, 0],
         "layer0.opacity": 0
     },
@@ -568,18 +568,17 @@
         // Replaces Default Folder Icons
 
     {
-        "class": "icon_folder",
+        "class": "disclosure_button_control",
         "content_margin": [8, 8],
         "layer0.texture": "Predawn/assets/folder.png",
         "layer0.opacity": 1.0
     },
-        {
-        "class": "icon_folder",
+    {
+        "class": "disclosure_button_control",
         "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
         "layer0.texture": "Predawn/assets/folder_open.png",
         "layer0.opacity": 1.0
     },
-
         // Sidebar file icons
 
     {
