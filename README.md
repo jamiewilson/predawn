@@ -58,6 +58,12 @@ Add or replace your current theme settings with the code below.
 	"color_scheme": "Packages/Predawn/predawn.tmTheme"
 	}
 
+**Or, For Sublime Text 2**
+
+	{
+	"theme": "predawn.sublime-theme",
+	"color_scheme": "Packages/Predawn/predawnST2.tmTheme"
+	}
 
 ## Tab Height Size Options
 
