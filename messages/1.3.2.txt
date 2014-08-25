@@ -8,8 +8,7 @@
 FOR ALL DEV BUILDS 3062+ use,
 
 {
-    "theme": "predawn.sublime-theme",
-    "color_scheme": "Packages/Predawn/predawn-DEV.tmTheme"
+    "theme": "predawn-DEV.sublime-theme"
 }
 
 
