@@ -5,11 +5,18 @@ Thanks for installing Predawn!
 ==============================
 
 
-To activate the theme, add or replace your current theme settings with the code below.
+To activate the theme for ST3, add or replace your current theme settings with the code below.
 
 {
     "theme": "predawn.sublime-theme",
     "color_scheme": "Packages/Predawn/predawn.tmTheme"
+}
+
+For ST2 use,
+
+{
+    "theme": "predawn.sublime-theme",
+    "color_scheme": "Packages/Predawn/predawnST2.tmTheme"
 }
 
 
