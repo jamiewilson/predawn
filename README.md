@@ -63,7 +63,8 @@ To activate the theme, add or replace your current theme settings with the code 
 FOR ALL **[DEV BUILDS 3062](http://www.sublimetext.com/3dev)+** use,
 
 	{
-	    "theme": "predawn-DEV.sublime-theme"
+	    "theme": "predawn-DEV.sublime-theme",
+	    "color_scheme": "Packages/Predawn/predawn.tmTheme"
 	}
 
 
