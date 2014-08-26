@@ -1,0 +1,15 @@
+1.3.3 NEW Installation Instructions
+
+  {
+    "theme": "predawn.sublime-theme",
+    "color_scheme": "Packages/Predawn/predawn.tmTheme"
+  }
+
+FOR ALL DEV BUILDS 3062+ use,
+
+  {
+      "theme": "predawn-DEV.sublime-theme",
+      "color_scheme": "Packages/Predawn/predawn.tmTheme"
+  }
+
+*** IMPORTANT - MAKE SURE TO RESTART SUBLIME AFTER INSTALLING AND ACTIVATING PREDAWN ***
