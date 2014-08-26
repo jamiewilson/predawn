@@ -369,7 +369,7 @@ fieldset {
 
 /*
  * 1. Corrects color not being inherited in IE6/7/8/9
- * 2. Corrects text not wrapping in FF3 
+ * 2. Corrects text not wrapping in FF3
  * 3. Corrects alignment displayed oddly in IE6/7
  */
 
@@ -538,7 +538,7 @@ html {
 body {
   margin: 0 auto;
   text-align: center;
-  max-width: 1346px;
+  max-width: 1367px;
   -webkit-animation: fade-in 750ms ease-out;
 }
 
@@ -602,7 +602,7 @@ img {
     position: static;
     display: block;
     margin: 10% auto;
-    
+
   }
   .gh-button {
     width: 150px !important;
