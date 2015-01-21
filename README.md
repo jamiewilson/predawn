@@ -130,7 +130,7 @@ First, **open a markdown(.md) file**, then navigate to `Sublime Text` > `Prefere
 		"wrap_width": 80  // Sets the # of characters per line
 	}
 
-## Interface Icons
+## Interface and File Icons
 The source files for the interface icons are located in the [jamiewilson/predawn-icons](https://github.com/jamiewilson/predawn-icons).
 
 ## Dock Icons
