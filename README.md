@@ -167,7 +167,7 @@ These are just a few of my other favorite options for Sublime Text:
 	"close_windows_when_empty": false,
 	"draw_minimap_border": true,
 	"enable_tab_scrolling": false,
-	"overlay_scroll_bars": "enabled",
+	"overlay_scroll_bars": true,
 	"open_files_in_new_window": false,
 	"preview_on_click": false,
 	"scroll_past_end": true,
