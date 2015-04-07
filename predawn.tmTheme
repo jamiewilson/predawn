@@ -814,7 +814,7 @@ COLOR KEY
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#999</string>
+				<string>#bddcdc</string>
 			</dict>
 		</dict>
 		<dict>
