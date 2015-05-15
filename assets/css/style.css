@@ -584,22 +584,19 @@ img {
 
 .twitter-share-button,
 .gh-button {
-  position: absolute;
+  position: absolute !important;
   top: 30px;
   right: 30px;
 }
 
 .gh-button { right: 120px; }
 
-/*-----------------------------
-    Mobile - Removing Share buttons for now.
------------------------------*/
 
 @media only screen and (max-width: 900px) {
 
   .twitter-share-button,
   .gh-button {
-    position: static;
+    position: static !important;
     display: block;
     margin: 10% auto;
 
