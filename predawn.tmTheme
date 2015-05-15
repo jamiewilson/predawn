@@ -94,7 +94,31 @@ COLOR KEY
 				<string>#777777</string>
 			</dict>
 		</dict>
+    <dict>
+      <key>name</key>
+      <string>Liquid Elements</string>
+      <key>scope</key>
+      <string>text.html.liquid punctuation.tag.liquid variable.other.liquid, text.html.liquid punctuation.tag.liquid support.class.liquid</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>italic</string>
+        <key>foreground</key>
+        <string>#f49d62</string>
+      </dict>
+    </dict>
 		<dict>
+      <key>name</key>
+      <string>Library Tags</string>
+      <key>scope</key>
+      <string>text.html.liquid punctuation.tag.liquid</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#bddcdc</string>
+      </dict>
+    </dict>
+    <dict>
 			<key>name</key>
 			<string>Constant</string>
 			<key>scope</key>
@@ -340,7 +364,7 @@ COLOR KEY
 			<key>name</key>
 			<string>css property-name: psuedos and attibutes</string>
 			<key>scope</key>
-			<string>support.type.property-name.css, support.type.property-name.scss, entity.other.attribute-name.pseudo-element.css, entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.attribute.css, variable.scss, meta.property-name.scss</string>
+			<string>support.type.property-name.css, invalid.illegal, support.type.property-name.scss, entity.other.attribute-name.pseudo-element.css, entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.attribute.css, variable.scss, meta.property-name.scss</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -382,9 +406,20 @@ COLOR KEY
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>string quoted single</string>
+			<key>scope</key>
+			<string>string.quoted.single</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#bddcdc</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>css strings and urls</string>
 			<key>scope</key>
-			<string>source.css string.quoted.single, source.scss string.quoted.single, source.css string.quoted.double, source.scss string.quoted.double, source.css variable.parameter, variable.parameter.url.scss, string.unquoted.attribute-value.scss, string.unquoted.attribute-value.css</string>
+			<string>source.scss string.quoted.single, source.css string.quoted.double, source.scss string.quoted.double, source.css variable.parameter, variable.parameter.url.scss, string.unquoted.attribute-value.scss, string.unquoted.attribute-value.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
