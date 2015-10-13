@@ -133,51 +133,9 @@ First, **open a markdown(.md) file**, then navigate to `Sublime Text` > `Prefere
 ## Interface and File Icons
 The source files for the interface icons are located in the [jamiewilson/predawn-icons](https://github.com/jamiewilson/predawn-icons).
 
+![image](https://raw.githubusercontent.com/jamiewilson/predawn-icons/master/predawn-file-icons.jpg)
+
 ## Dock Icons
 There are also some [dock icons](/dock-icons) for you to choose from:
 
 ![image](screenshots/icons.png)
-
-
-## A few of my favorite options
-These are just a few of my other favorite options for Sublime Text:
-
-	// Typography
-
-	"font_face": "Source Code Pro",
-	"font_size": 14,
-	"font_options": ["no_round"],
-	"highlight_line": true,
-	"caret_extra_width": 1,
-	"caret_style": "phase",
-	"word_wrap": false,
-
-	// Whitespace, Matching, Copy & Auto-Complete
-
-	"copy_with_empty_selection": false,
-	"drag_text": false,
-	"match_brackets_content": false,
-	"match_selection": false,
-	"match_tags": false,
-	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true,
-
-	// Interface & Behavior
-
-	"close_windows_when_empty": false,
-	"draw_minimap_border": true,
-	"enable_tab_scrolling": false,
-	"overlay_scroll_bars": "enabled",
-	"open_files_in_new_window": false,
-	"preview_on_click": false,
-	"scroll_past_end": true,
-	"scroll_speed": 5.0,
-	"show_full_path": false,
-
-## And some recommendations
-
-Also, I highly recommend these Sublime Text packages:
-
-* [Sublime-CSS3](https://github.com/i-akhmadullin/Sublime-CSS3)  
-* [GitGutter](https://github.com/jisaacks/GitGutter)  
-* [Sidebar Enhancements](https://github.com/titoBouzout/SideBarEnhancements)  

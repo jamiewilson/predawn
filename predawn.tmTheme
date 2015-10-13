@@ -5,24 +5,24 @@
 
 COLOR KEY
 
-#cf5340 - Red
-#f18260 - Predawn Orange
-#f49d62 - Orange
-#ecec89 - Yellow
-#92bfbf - Blue
-#bddcdc - Light Blue
-#b4d388 - Green
+#CF5340 - Red
+#F18260 - Predawn
+#F49D62 - Orange
+#EDE480 - Yellow
+#92BFBF - Blue
+#BDDCDC - Light Blue
+#B4D388 - Green
 
 #151515 - Black
 #232323 - Grey 9
 #252525 - Grey 8
 #282828 - Grey 7
-#3c3c3c - Grey 6
-#4c4c4c - Grey 5
+#3C3C3C - Grey 6
+#4C4C4C - Grey 5
 #777777 - Grey 4
 #999999 - Grey 3
-#dddddd - Grey 2
-#f1f1f1 - Grey 1
+#DDDDDD - Grey 2
+#F1F1F1 - Grey 1
 
 -->
 
@@ -95,30 +95,6 @@ COLOR KEY
 			</dict>
 		</dict>
     <dict>
-      <key>name</key>
-      <string>Liquid Elements</string>
-      <key>scope</key>
-      <string>text.html.liquid punctuation.tag.liquid variable.other.liquid, text.html.liquid punctuation.tag.liquid support.class.liquid</string>
-      <key>settings</key>
-      <dict>
-        <key>fontStyle</key>
-        <string>italic</string>
-        <key>foreground</key>
-        <string>#f49d62</string>
-      </dict>
-    </dict>
-		<dict>
-      <key>name</key>
-      <string>Library Tags</string>
-      <key>scope</key>
-      <string>text.html.liquid punctuation.tag.liquid</string>
-      <key>settings</key>
-      <dict>
-        <key>foreground</key>
-        <string>#bddcdc</string>
-      </dict>
-    </dict>
-    <dict>
 			<key>name</key>
 			<string>Constant</string>
 			<key>scope</key>
@@ -126,25 +102,72 @@ COLOR KEY
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ECEC89</string>
+				<string>#EDE480</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Entity</string>
 			<key>scope</key>
-			<string>entity</string>
+			<string>entity, meta.function.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#92BFBF</string>
 			</dict>
 		</dict>
+
+		<!-- Handlebars -->
+		<dict>
+			<key>name</key>
+			<string>Handlebars Text</string>
+			<key>scope</key>
+			<string>text.html.handlebars</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#f1f1f1</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Handlebars Text</string>
+			<key>scope</key>
+			<string>text.html.handlebars meta.function.inline.other.handlebars variable.parameter.handlebars</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F49D62</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Handlebars Braces</string>
+			<key>scope</key>
+			<string>text.html.handlebars meta.function.inline.other.handlebars support.constant.handlebars</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#f1f1f1</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Handlebars Loops</string>
+			<key>scope</key>
+			<string>text.html.handlebars meta.function.block.start.handlebars support.constant.handlebars, text.html.handlebars meta.function.block.end.handlebars support.constant.handlebars</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#92BFBF</string>
+			</dict>
+		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Keyword</string>
 			<key>scope</key>
-			<string>keyword</string>
+			<string>keyword, meta.brace.round.js, meta.brace.square.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -159,7 +182,7 @@ COLOR KEY
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ECEC89</string>
+				<string>#EDE480</string>
 			</dict>
 		</dict>
 		<dict>
@@ -269,7 +292,7 @@ COLOR KEY
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ECEC89</string>
+				<string>#EDE480</string>
 			</dict>
 		</dict>
 		<dict>
@@ -335,7 +358,7 @@ COLOR KEY
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ECEC89</string>
+				<string>#EDE480</string>
 			</dict>
 		</dict>
 		<dict>
@@ -364,7 +387,7 @@ COLOR KEY
 			<key>name</key>
 			<string>css property-name: psuedos and attibutes</string>
 			<key>scope</key>
-			<string>support.type.property-name.css, invalid.illegal, support.type.property-name.scss, entity.other.attribute-name.pseudo-element.css, entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.attribute.css, variable.scss, meta.property-name.scss</string>
+			<string>support.type.property-name.css, invalid.illegal, support.type.property-name.scss, entity.other.attribute-name.pseudo-element.css, entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.attribute.css, variable.scss, meta.property-name.scss, source.css meta.property-list.css meta.property-name.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -379,7 +402,7 @@ COLOR KEY
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ECEC89</string>
+				<string>#EDE480</string>
 			</dict>
 		</dict>
 		<dict>
@@ -401,7 +424,7 @@ COLOR KEY
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ECEC89</string>
+				<string>#EDE480</string>
 			</dict>
 		</dict>
 		<dict>
@@ -552,7 +575,7 @@ COLOR KEY
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#ECEC89</string>
+				<string>#EDE480</string>
 			</dict>
 		</dict>
 		<dict>
@@ -640,7 +663,7 @@ COLOR KEY
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ECEC89</string>
+				<string>#EDE480</string>
 			</dict>
 		</dict>
 		<dict>
@@ -673,7 +696,7 @@ COLOR KEY
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ECEC89</string>
+				<string>#EDE480</string>
 			</dict>
 		</dict>
 		<dict>
@@ -761,7 +784,7 @@ COLOR KEY
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ECEC89</string>
+				<string>#EDE480</string>
 			</dict>
 		</dict>
 		<dict>
@@ -860,7 +883,7 @@ COLOR KEY
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ECEC89</string>
+				<string>#EDE480</string>
 			</dict>
 		</dict>
 		<dict>
