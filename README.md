@@ -181,3 +181,4 @@ Also, I highly recommend these Sublime Text packages:
 * [Sublime-CSS3](https://github.com/i-akhmadullin/Sublime-CSS3)  
 * [GitGutter](https://github.com/jisaacks/GitGutter)  
 * [Sidebar Enhancements](https://github.com/titoBouzout/SideBarEnhancements)  
+* [HTMLATTRIBUTES](https://packagecontrol.io/packages/HTMLAttributes)
