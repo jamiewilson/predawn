@@ -2,15 +2,33 @@
 
 ### A dark interface and syntax theme for [Sublime Text](https://sublime.wbond.net/packages/Predawn) and [Atom](https://atom.io/packages/predawn-ui).
 
-## About
-
-Predawn is a minimal Sublime Text theme and a syntax color scheme. It was originally just a slightly tweaked version (called Flatland-Alt) of the [Flatland](https://github.com/thinkpixellab/flatland) theme, which itself is a flat reworking of [Soda](https://github.com/buymeasoda/soda-theme/). I decided to keep going with customization and rework the entire theme. But I owe a lot to Flatland and Soda. Thanks guys!
-
-![image](screenshots/screenshot.png)
+![](screenshots/screenshot.png)
 
 [View a larger screenshot](https://raw.github.com/jamiewilson/predawn/master/screenshots/screenshot.png)
 
-## Installation for [Atom](https://atom.io/packages/predawn-ui)
+# All Options and Defaults
+#### See images below for examples
+
+	// Panel Options
+	"predawn_findreplace_small": false,
+	"predawn_quick_panel_small": false,
+
+	// Sidebar Options
+	"predawn_sidebar_arrows": false,
+	"predawn_sidebar_large": false,
+	"predawn_sidebar_medium": false,
+	"predawn_sidebar_narrow": false,
+	"predawn_sidebar_small": false,
+	"predawn_sidebar_xlarge": false,
+	"predawn_sidebar_xsmall": false,
+
+	// Tabs Options
+	"predawn_tabs_active_underline": false,
+	"predawn_tabs_large": false,
+	"predawn_tabs_medium": false,
+	"predawn_tabs_small": false
+
+# [Atom](https://atom.io/packages/predawn-ui) Installation
 
 Search for `predawn` in the Packages section of your Atom settings tab. Install both:
 
@@ -30,7 +48,7 @@ _Also, you can view on the repo on Atom.io at http://atom.io/packages/predawn-ui
 
 ---
 
-## Installation for [Sublime Text](https://sublime.wbond.net/packages/Predawn)
+# [Sublime Text](https://sublime.wbond.net/packages/Predawn) Installation
 
 ###Recommended
 For easy installation, install with [Package Control](https://sublime.wbond.net/docs).
@@ -45,13 +63,13 @@ You can clone the repo to your `Packages` folder. Just make sure the repo folder
 
 Of course, you can always [install manually](https://github.com/jamiewilson/predawn/archive/master.zip), too.
 
-## Activating the Theme
+# Activating the Theme
 
 _Note: File icons are only supported for **[DEV BUILDS 3062](http://www.sublimetext.com/3dev)+**._
 
 Open your user settings file `preferences.sublime-settings` as shown below:
 
-![image](screenshots/activate.png)
+![](screenshots/activate.png)
 
 To activate the theme, add or replace your current theme settings with the code below.
 
@@ -68,57 +86,38 @@ FOR ALL **[DEV BUILDS 3062](http://www.sublimetext.com/3dev)+** use,
 	}
 
 
-*** IMPORTANT - MAKE SURE TO RESTART SUBLIME AFTER INSTALLING AND ACTIVATING PREDAWN ***
+#### !! IMPORTANT !!
+Make sure to restart Sublime after installing and activating Predawn
 
-## Tab Height Size Options
+# Options
 
-You can change the height of the file tabs by adding either to your preferences file:
+### Tabs Height
+![](screenshots/tabs.png)
 
+### Active Tab Underline
+![](http://i.imgur.com/gHtilo3.jpg)
 
-	"tabs_small": true
-
-OR
-
-	"tabs_medium": true
-
-
-![image](screenshots/tabs.png)
-
-## Find & Replace Small Size Option
-
-You can change the height of the Find/Replace inputs by adding the following to preferences file:
-
-
-	"findreplace_small": true
-
-![image](screenshots/find-replace.png)
+### Find & Replace Small Size
+![](screenshots/find-replace.png)
 
 After enabling the smaller size, you'll need to drag the height of the Find/Replace panel up and down to adjust it to the new dimemension.
 
-## Sidebar Size Options
+### Sidebar Height
+![](screenshots/sidebar.png)
 
-You can change the vertical spacing of the sidebar by changing `default` to `xsmall`, `small`, `medium`, `large`, `xlarge`:
+### Sidebar Width
+![](http://i.imgur.com/RAFhLfz.jpg)
 
+# Markdown 
+![](screenshots/markdown.png)
 
-	"sidebar_default": true
-
-for example:
-
-	"sidebar_large": true
-
-
-![image](screenshots/sidebar.png)
-
-## Markdown Settings
-![markdown](screenshots/markdown.png)
-
-#### To enable Predawn for Markdown
+## To enable Predawn for Markdown
 
 First, **open a markdown(.md) file**, then navigate to `Sublime Text` > `Preferences` > `Settings - More` > `Syntax Specific - User`  in the menu bar.
 
-![syntax-specific](screenshots/syntax-specific.png)
+![](screenshots/syntax-specific.png)
 
-#### Add to your current settings or replace with the following:
+## Add to your current settings or replace with the following:
 
 	{
 		"color_scheme": "Packages/Predawn/predawn-markdown.tmTheme",
@@ -130,12 +129,12 @@ First, **open a markdown(.md) file**, then navigate to `Sublime Text` > `Prefere
 		"wrap_width": 80  // Sets the # of characters per line
 	}
 
-## Interface and File Icons
+# Interface and File Icons
 The source files for the interface icons are located in the [jamiewilson/predawn-icons](https://github.com/jamiewilson/predawn-icons).
 
-![image](https://raw.githubusercontent.com/jamiewilson/predawn-icons/master/predawn-file-icons.jpg)
+![](https://raw.githubusercontent.com/jamiewilson/predawn-icons/master/predawn-file-icons.jpg)
 
-## Dock Icons
+# Dock Icons
 There are also some [dock icons](/dock-icons) for you to choose from:
 
-![image](screenshots/icons.png)
+![](screenshots/icons.png)
