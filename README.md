@@ -2,9 +2,9 @@
 
 ### A dark interface and syntax theme for [Sublime Text](https://sublime.wbond.net/packages/Predawn) and [Atom](https://atom.io/packages/predawn-ui).
 
-![](screenshots/screenshot.png)
+![](http://i.imgur.com/r6B1Exd.png)
 
-[View a larger screenshot](https://raw.github.com/jamiewilson/predawn/master/screenshots/screenshot.png)
+[View a larger screenshot](http://i.imgur.com/r6B1Exd.png)
 
 # All Options and Defaults
 #### See images below for examples
@@ -69,7 +69,7 @@ _Note: File icons are only supported for **[DEV BUILDS 3062](http://www.sublimet
 
 Open your user settings file `preferences.sublime-settings` as shown below:
 
-![](screenshots/activate.png)
+![](http://i.imgur.com/dDxZTwu.png)
 
 To activate the theme, add or replace your current theme settings with the code below.
 
@@ -92,30 +92,30 @@ Make sure to restart Sublime after installing and activating Predawn
 # Options
 
 ### Tabs Height
-![](screenshots/tabs.png)
+![](http://i.imgur.com/V5bch3X.png)
 
 ### Active Tab Underline
 ![](http://i.imgur.com/gHtilo3.jpg)
 
 ### Find & Replace Small Size
-![](screenshots/find-replace.png)
+![](http://i.imgur.com/nMMu5AD.png)
 
 After enabling the smaller size, you'll need to drag the height of the Find/Replace panel up and down to adjust it to the new dimemension.
 
 ### Sidebar Height
-![](screenshots/sidebar.png)
+![](http://i.imgur.com/3Y3psRy.png)
 
 ### Sidebar Width
-![](http://i.imgur.com/RAFhLfz.jpg)
+![](http://i.imgur.com/1p0WjBL.jpg)
 
 # Markdown 
-![](screenshots/markdown.png)
+![](http://i.imgur.com/hDMgN39.png)
 
 ## To enable Predawn for Markdown
 
 First, **open a markdown(.md) file**, then navigate to `Sublime Text` > `Preferences` > `Settings - More` > `Syntax Specific - User`  in the menu bar.
 
-![](screenshots/syntax-specific.png)
+![](http://i.imgur.com/SFyHdVX.png)
 
 ## Add to your current settings or replace with the following:
 
@@ -132,9 +132,9 @@ First, **open a markdown(.md) file**, then navigate to `Sublime Text` > `Prefere
 # Interface and File Icons
 The source files for the interface icons are located in the [jamiewilson/predawn-icons](https://github.com/jamiewilson/predawn-icons).
 
-![](https://raw.githubusercontent.com/jamiewilson/predawn-icons/master/predawn-file-icons.jpg)
+![](http://i.imgur.com/O9QgDad.jpg)
 
 # Dock Icons
 There are also some [dock icons](/dock-icons) for you to choose from:
 
-![](screenshots/icons.png)
+![](http://i.imgur.com/dF2d4Fv.png)
