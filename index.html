@@ -1,49 +1,301 @@
 <!DOCTYPE html>
-
-<!--
-
- _     _ _______                _____
- |_____| |______ |      |      |     |
- |     | |______ |_____ |_____ |_____| .
-
- This is what I code like.
- You can contact me about stuff at jamie@jamiewilson.io
- Bye. Thanks for stopping by.
-
--->
-
 <html>
-
 <head>
-
-  <title>Predawn - Interface and Syntax Theme for Sublime and Atom</title>
-
   <meta charset="utf-8">
-  <meta name="description" content="Freelance Product Designer. Co-founder of Filter & Format. Maker of Norwester. Building Dewey. Dog-lover and avid reader of the internet—it's pretty good so far.">
-  <meta name="keywords" content="jamie wilson, jamie wilson dallas, jamiewilson, jmwlsn, @jmwlsn, jamiewilson.io, jamie wilson switch, designer, design, switch, creative, dallas, graphic, filter and format, filter &amp; format, filterandformat, dewey, dewey bookmarks, deweyapp, dewey for chrome, dewey better bookmarks, better chrome bookmarks">
+  <title>Predawn A dark interface and syntax theme for Sublime Text & Atom.</title>
+  <meta name="description" content="A dark interface and syntax theme for Sublime Text & Atom.">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <link rel='stylesheet' href='assets/css/style.css'>
-  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900&subset=latin' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="canonical" href="http://jamiewilson.io/predawn/">
+  <link href="img/favicon.png" rel="shortcut icon">
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
 
-  <link href="assets/images/favicon.png" rel="shortcut icon">
-
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
 </head>
 
-<body>
+  <body class="row fullscreen color-white fadeIn overflow-hidden">
 
-  <h1>Predawn</h1>
-  <h2>Interface and syntax theme for <a href="https://github.com/jamiewilson/predawn">Sublime Text</a> and <a href="https://github.com/jamiewilson/predawn-ui">Atom</a></h2>
-  <a href="https://github.com/jamiewilson/predawn"><img src="assets/images/screenshot-large.png"></a>
-  <h3>Install via <a href="https://sublime.wbond.net/">Package Control</a> or Learn more on <a href="https://github.com/jamiewilson/predawn">GitHub</a></h3>
-  <h4>Created by <a href="http://jamiewilson.io">Jamie Wilson</a></h4>
+    <div class="predawn-status-bar row space-between fixed bottom depth-10 no-pointer-events">
+  <div class="cursor-location">Line 2, Column 51</div>
+  <div>
+    <span class="mr2">Spaces: 2</span>
+    <span id="syntax-label" class="mr2">Markdown</span>
+  </div>
+</div>
 
-  <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://jamiewilson.io/predawn" data-text="Predawn, a minimal theme for Sublime Text and Atom." data-via="jmwlsn" data-size="large">Tweet</a>
 
-  <iframe class="gh-button" src="http://ghbtns.com/github-btn.html?user=jamiewilson&repo=predawn&type=watch&size=large&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="200" height="30"></iframe>
+<nav class="predawn-sidebar fixed h100">
+  <div class="share-btn-wrap column bottom-left h100 p2 pb3">
+    <a class="github-button" href="https://github.com/jamiewilson/predawn" data-icon="octicon-star" data-count-href="/jamiewilson/predawn/stargazers" data-count-api="/repos/jamiewilson/predawn#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star jamiewilson/predawn on GitHub">Star</a>
+    <span class="mt75"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://jamiewilson.io/predawn" data-text="Predawn, a minimal theme for Sublime Text and Atom." data-via="jmwlsn" data-size="small">Tweet</a></span>
+  </div>
+</nav>
 
+<main class="column">
+  <div class="js-tabs">
+  <ul class="predawn-tabs row center-left fixed depth-10 scroll-horizontal no-scrollbar">
+    <li class="predawn-tab row center-left"><a class="nowrap overflow-hidden" href="#tabs-1">example.html</a></li>
+    <li class="predawn-tab row center-left"><a class="nowrap overflow-hidden" href="#tabs-2">README.md</a></li>
+    <li class="predawn-tab row center-left"><a class="nowrap overflow-hidden" href="#tabs-3">Preferences.sublime-settings</a></li>
+    <li class="predawn-tab row center-left"><a class="nowrap overflow-hidden" href="#tabs-4">example.scss</a></li>
+    <li class="predawn-tab row center-left"><a class="nowrap overflow-hidden" href="#tabs-5">example.js</a></li>
+  </ul>
+
+  <div class="predawn-editor-wrap">
+    <pre id="tabs-1" data-syntax="HTML" class="predawn-editor language-markup line-numbers no-indicator"><code>&lt;!--==============================================
+  NOTE: The syntax highlighting shown here might
+  not match exactly what you see in your editor
+===============================================--&gt;
+
+&lt;html&gt;
+&lt;head&gt;
+
+  &lt;meta charset=&quot;utf-8&quot;&gt;
+  &lt;title&gt;Jamie Wilson - Designer/Developer. Stylesheets Corpus, Predawn, Norwester, and more. Designer/Developer. Stylesheets Corpus, Predawn, Norwester, and more. Dog-lover and avid reader of the internet&mdash;it&#039;s pretty good so far.&lt;/title&gt;
+  &lt;meta name=&quot;description&quot; content=&quot;Designer/Developer. Stylesheets Corpus, Predawn, Norwester, and more. Dog-lover and avid reader of the internet&mdash;it&#039;s pretty good so far.&quot;&gt;
+
+  &lt;meta name=&quot;keywords&quot; content=&quot;jamie wilson, jamie wilson dallas, jamiewilson, jmwlsn, @jmwlsn, jamiewilson.io, jamie wilson switch, designer, design, developer, dev, dallas, stylesheets, corpus, predawn, norwester, weld, welderwire, meteor, dewey&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, maximum-scale=1&quot;&gt;
+  &lt;meta name=&quot;google-site-verification&quot; content=&quot;xICaRiFseDjdCoawimIDp8J8beVHQcEUr0i5thWv-Ho&quot; /&gt;
+
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;/css/main.css&quot;&gt;
+  &lt;link rel=&quot;canonical&quot; href=&quot;http://jamiewilson.io//&quot;&gt;
+  &lt;link href=&#039;https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300|Alegreya+SC|Alegreya:400italic&#039; rel=&#039;stylesheet&#039; type=&#039;text/css&#039;&gt;
+  &lt;link href=&quot;/img/favicon.png&quot; rel=&quot;shortcut icon&quot;&gt;
+
+&lt;/head&gt;
+
+&lt;body&gt;
+  &lt;header class=&quot;header column center-left color-white vh50 relative&quot;&gt;
+  &lt;section class=&quot;container w100&quot;&gt;
+    &lt;h1 class=&quot;header-intro&quot;&gt;The Portfolio &lt;span class=&quot;header-intro-italic&quot;&gt;of&lt;/span&gt; Jamie Wilson&lt;/h1&gt;
+    &lt;h2 class=&quot;header-description&quot; data-fitter-happier-text&gt;Designer/Developer&lt;/h2&gt;
+  &lt;/section&gt;
+
+  &lt;section class=&quot;header-contact fs-base ptb1 w100 absolute bottom&quot;&gt;
+    &lt;div class=&quot;container row w100&quot;&gt;
+      &lt;ul class=&quot;row list-style-none&quot;&gt;
+        &lt;li class=&quot;mr1 hide-on-small&quot;&gt;Get in touch:&lt;/li&gt;
+        &lt;li class=&quot;link-separator&quot;&gt;&lt;a href=&quot;http://twitter.com/jmwlsn&quot;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
+        &lt;li class=&quot;link-separator&quot;&gt;&lt;a href=&quot;http://github.com/jamiewilson&quot;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;mailto:jamie@jamiewilson.io?subject=Hello.&quot;&gt;Email&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;span class=&quot;row center-right&quot;&gt;
+        &lt;svg class=&quot;favicon&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;16&quot; height=&quot;16&quot; viewBox=&quot;0 0 16 16&quot;&gt;
+          &lt;path class=&quot;step1&quot; d=&quot;M6 0h4v4h-4zM12 6h4v4h-4zM0 12h4v4h-4zM6 12h4v4h-4zM12 12h4v4h-4z&quot;/&gt;
+        &lt;/svg&gt;
+        &lt;/svg&gt;
+      &lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+&lt;/header&gt;
+</code></pre>
+    <div id="tabs-2" data-syntax="Markdown" class="predawn-editor column center mt0 pb0 plr1"><h1 class="logotype mb0">Predawn</h1>
+<h3 class="color-midgrey text-align-center mb4">A dark interface and syntax theme for <a class="no-underline bb1 border-midgrey" href="https://packagecontrol.io/packages/Predawn">Sublime Text</a> and <a class="no-underline bb1 border-midgrey" href="https://atom.io/packages/predawn-ui">Atom</a></h3>
+<span class="text-align-center fs-small uppercase tracked">
+  Created by <a class="mr1 color-white bb1 border-midgrey" href="http://jamiewilson.io">Jamie Wilso<span class="ls0">n</span></a>
+  <a class="certificate color-white nowrap" href="https://packagecontrol.io/packages/Predawn"><svg class="certificate-icon" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M15.915 6.54c.058-.167.085-.339.085-.509 0-.513-.253-1.009-.703-1.321-1.436-.994-1.245-.744-1.786-2.362-.227-.675-.879-1.132-1.616-1.132h-.005c-1.769.006-1.462.101-2.889-.902-.298-.209-.65-.314-1.001-.314-.352 0-.703.104-1.001.314-1.438 1.01-1.124.909-2.889.902h-.005c-.736 0-1.389.456-1.615 1.132-.542 1.621-.356 1.37-1.786 2.362-.451.313-.704.808-.704 1.322 0 .169.028.341.085.508.554 1.619.553 1.308 0 2.92-.057.168-.085.339-.085.508 0 .514.253 1.01.704 1.322 1.43.994 1.245.742 1.786 2.363.225.674.878 1.131 1.615 1.131h.005c1.769-.007 1.462-.102 2.889.902.298.209.65.314 1.001.314.352 0 .703-.105 1.001-.314 1.427-1.003 1.119-.908 2.889-.902h.005c.736 0 1.389-.457 1.616-1.131.54-1.618.35-1.368 1.786-2.363.45-.312.703-.808.703-1.321 0-.17-.027-.341-.085-.509-.554-1.618-.551-1.308 0-2.92zm-8.915 4.627l-3-2.909 1.239-1.238 1.761 1.67 3.761-3.855 1.239 1.238-5 5.095z"/></svg>Top 100</a>
+</span>
+</div>
+    <pre id="tabs-3" data-syntax="JSON" class="predawn-editor language-clike line-numbers no-indicator"><code>{
+  // ========================== IMPORTANT ========================== //
+  // Use "predawn-DEV.sublime-theme" for Sublime Text versions 3062+ //
+  // =============================================================== //
+
+  // Activate Theme and Color Scheme
+  "theme": "predawn.sublime-theme",
+  "color_scheme": "Packages/Predawn/predawn.tmTheme",
+
+  // Panel Options
+  "predawn_findreplace_small": false,
+  "predawn_quick_panel_small": false,
+
+  // Sidebar Options
+  "predawn_sidebar_arrows": false,
+  "predawn_sidebar_large": false,
+  "predawn_sidebar_medium": false,
+  "predawn_sidebar_narrow": false,
+  "predawn_sidebar_small": false,
+  "predawn_sidebar_xlarge": false,
+  "predawn_sidebar_xsmall": false,
+
+  // Tabs Options
+  "predawn_tabs_active_underline": false,
+  "predawn_tabs_large": false,
+  "predawn_tabs_medium": false,
+  "predawn_tabs_small": false
+}
+</code></pre>
+    <pre id="tabs-4" data-syntax="SCSS" class="predawn-editor language-scss line-numbers no-indicator"><code>//====================================================
+//  NOTE: The syntax highlighting shown here might
+//  not match exactly what you see in your editor
+//====================================================
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  height: auto;
+  flex-wrap: nowrap;
+  @include small {
+    min-width: 100%;
+  }
+}
+
+.row {
+  display: flex;
+  flex: 1 1 auto;
+  height: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.row &gt; .column {
+  @include small {
+    width: 100% !important;
+  }
+}
+
+//====================================================
+//  Gutters
+//====================================================
+
+// Add .gutters to .row/.column elements
+.gutters { padding: $padding; }
+
+// All direct descendants of .gutters get margin
+.gutters &gt; .column,
+.gutters &gt; .row {
+  margin: $margin;
+  @include small {
+    width: 100% !important;
+    min-width: 0;
+  }
+}
+
+// offset padding/margin to maintain width
+.gutters &gt; {
+  .w5    { width:  calc(5%   -  #{$padding + $margin}); }
+  .w10   { width:  calc(10%  -  #{$padding + $margin}); }
+  .w15   { width:  calc(15%  -  #{$padding + $margin}); }
+  .w20   { width:  calc(20%  -  #{$padding + $margin}); }
+  .w25   { width:  calc(25%  -  #{$padding + $margin}); }
+  .w30   { width:  calc(30%  -  #{$padding + $margin}); }
+  .w35   { width:  calc(35%  -  #{$padding + $margin}); }
+  .w40   { width:  calc(40%  -  #{$padding + $margin}); }
+  .w45   { width:  calc(45%  -  #{$padding + $margin}); }
+  .w50   { width:  calc(50%  -  #{$padding + $margin}); }
+  .w55   { width:  calc(55%  -  #{$padding + $margin}); }
+  .w60   { width:  calc(60%  -  #{$padding + $margin}); }
+  .w65   { width:  calc(65%  -  #{$padding + $margin}); }
+  .w70   { width:  calc(70%  -  #{$padding + $margin}); }
+  .w75   { width:  calc(75%  -  #{$padding + $margin}); }
+  .w80   { width:  calc(80%  -  #{$padding + $margin}); }
+  .w85   { width:  calc(85%  -  #{$padding + $margin}); }
+  .w90   { width:  calc(90%  -  #{$padding + $margin}); }
+  .w95   { width:  calc(95%  -  #{$padding + $margin}); }
+  .w100  { width:  calc(100% -  #{$padding + $margin}); }
+}
+</code></pre>
+    <pre id="tabs-5" data-syntax="JavaScript" class="predawn-editor language-javascript line-numbers no-indicator"><code>//====================================================
+//  NOTE: The syntax highlighting shown here might
+//  not match exactly what you see in your editor
+//====================================================
+
+Template.post_item.helpers({
+  // current user created this post
+  ownsPost: function() {
+    return this.createdBy === Meteor.userId();
+  },
+  // current user has upvoted this post
+  upvoted: function() {
+    var userId = Meteor.userId();
+    if (_.include(this.upvoters, userId))
+      return true;
+  },
+  hash: function() {
+    url = this.link;
+    secret = Meteor.settings.public.screenshotMachineSecret;
+    var hash = CryptoJS.MD5(url + secret).toString();
+    return hash;
+  }
+});
+
+Template.post_item.onRendered(function(){
+  // initialize imagesLoaded on screenshot elements
+  var screenshot = imagesLoaded(&quot;.screenshot&quot;);
+  // remove loading animation as each image loads
+  screenshot.on(&#039;progress&#039;, function(instance, image) {
+    // TOOD: get loading item without prev()
+    var item = $(image.img).prev();
+    item.fadeOut(300);
+  });
+});
+
+Template.post_item.events({
+  &#039;click .js-upvote&#039;: function(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    var userId = Meteor.userId();
+    // if user is logged in
+    if (userId &amp;&amp; (Meteor.user().emails[0].verified === true)) {
+      // call upvote meteor method on click
+      Meteor.call(&#039;upvote&#039;, this._id);
+      // track event with Segment
+      analytics.track(&#039;Upvoted&#039;);
+    } else if (userId &amp;&amp; Meteor.user().emails[0].verified === false) {
+      // give user option to resend verify email
+      verifyEmailModal();
+    } else {
+      // open login modal instead
+      openModal();
+    }
+  },
+  &#039;click .js-downvote&#039;: function(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    // if user is logged in
+    var userId = Meteor.userId();
+    if (userId &amp;&amp; (Meteor.user().emails[0].verified === true)) {
+      // call upvote meteor method on click
+      Meteor.call(&#039;downvote&#039;, this._id);
+      // track event with Segment
+      analytics.track(&#039;Downvoted&#039;);
+    } else if (userId &amp;&amp; Meteor.user().emails[0].verified === false) {
+      // give user option to resend verify email
+      verifyEmailModal();
+    } else {
+      // open login modal instead
+      openModal();
+    }
+  },
+  &#039;click .js-edit&#039;: function(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    var currentPostId = this._id;
+    var userId = Meteor.userId();
+    if (userId &amp;&amp; (Meteor.user().emails[0].verified === true)) {
+      Router.go(&#039;edit&#039;, {_id: currentPostId});
+    } else {
+      verifyEmailModal();
+    }
+  }
+});
+</code></pre>
+  </div>
+</div>
+
+</main>
+<a class="donate-btn btn btn-outline hide-on-small" href="https://plasso.co/jamie@jamiewilson.io" target="_blank"><span class="color-white">Buy me a coffee!</span></a>
+
+
+
+  <script src="scripts/prism.js"></script>
+<script src="scripts/app.js"></script>
+<script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
-</body>
-
+  </body>
 </html>
