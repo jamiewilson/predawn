@@ -809,7 +809,33 @@
   // ST2 Sidebar Folder Icons
   //
   //
-
+  {
+    // Default Theme Icons
+    "class": "disclosure_button_control",
+    "layer0.texture": "Theme - Default/arrow_right.png",
+    "layer0.opacity": 1.0,
+    "layer0.inner_margin": 0,
+    "layer1.texture": "Theme - Default/arrow_right_over.png",
+    "layer1.opacity": 0.0,
+    "layer1.inner_margin": 0,
+    "content_margin": [9, 7, 8, 6]
+  },
+  {
+    "class": "disclosure_button_control",
+    "parents":
+    [
+        { "class": "tree_row", "attributes": ["hover"] }
+    ],
+    // "attributes": ["hover"],
+    "layer0.opacity": 0.0,
+    "layer1.opacity": 1.0
+  },
+  {
+    "class": "disclosure_button_control",
+    "attributes": ["expanded"],
+    "layer0.texture": "Theme - Default/arrow_down.png",
+    "layer1.texture": "Theme - Default/arrow_down_over.png"
+  },
   {
     // Sidebar tree
     "class": "sidebar_tree",
@@ -849,35 +875,35 @@
     "class": "sidebar_tree",
     "settings": ["predawn_sidebar_narrow"],
     "indent": 5
-  },{
-    // Hides Default Arrow Icon
-    "class": "icon_folder",
-    "content_margin": [0, 0],
-    "layer0.opacity": 0
   },
   {
-    // Replaces Default Folder Icons
-    "class": "disclosure_button_control",
-    "content_margin": [8, 8],
-    "layer0.texture": "Predawn/assets/folder.png",
-    "layer0.opacity": 1.0
-  },
-  {
-    // Open Folder Icon
-    "class": "disclosure_button_control",
-    "attributes": ["expanded"],
-    "layer0.texture": "Predawn/assets/folder_open.png"
-  },
-  {
+    // predawn_sidebar_arrows
     "class": "disclosure_button_control",
     "settings": ["predawn_sidebar_arrows"],
     "layer0.texture": "Predawn/assets/collapsed_icon.png",
-    "layer0.opacity": 1.0
+    "layer0.opacity": 1.0,
+    "layer0.inner_margin": 0,
+    "layer1.texture": "Predawn/assets/collapsed_icon_over.png",
+    "layer1.opacity": 0.0,
+    "layer1.inner_margin": 0,
+    "content_margin": [8, 8]
+  },
+  {
+    "class": "disclosure_button_control",
+    "settings": ["predawn_sidebar_arrows"],
+    "parents":
+    [
+        { "class": "tree_row", "attributes": ["hover"] }
+    ],
+    // "attributes": ["hover"],
+    "layer0.opacity": 0.0,
+    "layer1.opacity": 1.0
   },
   {
     "class": "disclosure_button_control",
     "settings": ["predawn_sidebar_arrows"],
     "attributes": ["expanded"],
-    "layer0.texture": "Predawn/assets/expanded_icon.png"
+    "layer0.texture": "Predawn/assets/expanded_icon.png",
+    "layer1.texture": "Predawn/assets/expanded_icon_over.png"
   }
 ]

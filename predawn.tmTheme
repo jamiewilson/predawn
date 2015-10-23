@@ -87,7 +87,7 @@ COLOR KEY
 			<key>name</key>
 			<string>Python Docstring</string>
 			<key>scope</key>
-			<string>string.quoted.double.block.python</string>
+			<string>string.quoted.double.block.python, text.html.django storage.type.templatetag.django storage.type.attr.django, text.html.jekyll punctuation.tag.jekyll string.quoted.single.jekyll, text.html.swig meta.function.block.start.swig string.quoted.single.html</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -133,7 +133,7 @@ COLOR KEY
 			<key>name</key>
 			<string>Handlebars Text</string>
 			<key>scope</key>
-			<string>text.html.handlebars meta.function.inline.other.handlebars variable.parameter.handlebars</string>
+			<string>text.html.handlebars meta.function.inline.other.handlebars variable.parameter.handlebars, text.html.django storage.type.variable.django string.unquoted.tag-string.django</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -144,7 +144,7 @@ COLOR KEY
 			<key>name</key>
 			<string>Handlebars Braces</string>
 			<key>scope</key>
-			<string>text.html.handlebars meta.function.inline.other.handlebars support.constant.handlebars</string>
+			<string>text.html.handlebars meta.function.inline.other.handlebars support.constant.handlebars, meta.function.block.start.swig, support.constant.swig, support.constant.handlebars, entity.tag.tagbraces.django</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -155,7 +155,7 @@ COLOR KEY
 			<key>name</key>
 			<string>Handlebars Loops</string>
 			<key>scope</key>
-			<string>text.html.handlebars meta.function.block.start.handlebars support.constant.handlebars, text.html.handlebars meta.function.block.end.handlebars support.constant.handlebars</string>
+			<string>text.html.handlebars meta.function.block.start.handlebars support.constant.handlebars, string.unquoted.tag-string.django, keyword.control.filter.django</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -409,7 +409,7 @@ COLOR KEY
 			<key>name</key>
 			<string>css @at-rule</string>
 			<key>scope</key>
-			<string>meta.preprocessor.at-rule keyword.control.at-rule</string>
+			<string>meta.preprocessor.at-rule keyword.control.at-rule, entity.name.tag.jekyll</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -431,7 +431,7 @@ COLOR KEY
 			<key>name</key>
 			<string>string quoted single</string>
 			<key>scope</key>
-			<string>string.quoted.single</string>
+			<string>string.quoted.single, storage.type.attr.django, support.variable.jekyll</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
