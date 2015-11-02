@@ -193,50 +193,51 @@
     "layer1.texture": "Predawn/assets/fold-open-pressed.png"
   },
   {
-    // Standard vertical scroll bar
+    // Vertical scrollbar
     "class": "scroll_bar_control",
-    "layer0.texture": "Predawn/assets/standard-scrollbar-vertical.png",
+    "layer0.texture": "Predawn/assets/scrollbar.png",
+    "layer0.inner_margin": [5, 0],
     "layer0.opacity": 1.0,
-    "layer0.inner_margin": [0, 6],
     "blur": false
   },
   {
-    // Standard horizontal scroll bar
+    // Horizontal scrollbar
     "class": "scroll_bar_control",
     "attributes": ["horizontal"],
-    "layer0.texture": "Predawn/assets/standard-scrollbar-horizontal.png",
+    "layer0.texture": "Predawn/assets/scrollbar.png",
+    "layer0.inner_margin": 0,
     "layer0.opacity": 1.0,
-    "layer0.inner_margin": [6, 0],
+    "content_margin": 0,
     "blur": false
   },
   {
-    // Standard scroll bar corner
+    // Scrollbar corner
     "class": "scroll_corner_control",
-    "layer0.texture": "Predawn/assets/standard-scrollbar-corner.png",
-    "layer0.opacity": 1.0,
-    "layer0.inner_margin": [1, 1]
+    "layer0.texture": "Predawn/assets/scrollbar.png",
+    "layer0.opacity": 1.0
   },
   {
-    // Standard vertical scroll puck
+    // Vertical scroll puck
     "class": "puck_control",
-    "layer0.texture": "Predawn/assets/standard-puck-vertical.png",
+    "layer0.texture": "Predawn/assets/puck-vertical.png",
     "layer0.opacity": 1.0,
-    "layer0.inner_margin": [0, 10],
-    "content_margin": [8, 12],
+    "layer0.inner_margin": [0, 5],
+    "content_margin": [5, 20],
     "blur": false
   },
   {
-    // Standard horizontal scroll puck
+    // Horizontal scroll puck
     "class": "puck_control",
     "attributes": ["horizontal"],
-    "layer0.texture": "Predawn/assets/standard-puck-horizontal.png",
+    "layer0.texture": "Predawn/assets/puck-horizontal.png",
+    "layer0.inner_margin": [5, 0],
     "layer0.opacity": 1.0,
-    "layer0.inner_margin": [10, 0],
-    "content_margin": [12, 8],
+    "content_margin": [20, 5],
     "blur": false
   },
   {
-    // Overlay toggle scroll bar
+    // Overlay scrollbar option
+    // "overlay_scroll_bars": "enabled"
     "class": "scroll_area_control",
     "settings": ["overlay_scroll_bars"],
     "overlay": true
@@ -245,42 +246,6 @@
     "class": "scroll_area_control",
     "settings": ["!overlay_scroll_bars"],
     "overlay": false
-  },
-  {
-    // Overlay vertical scroll bar
-    "class": "scroll_bar_control",
-    "settings": ["overlay_scroll_bars"],
-    "layer0.texture": "Predawn/assets/overlay-scrollbar-vertical.png",
-    "layer0.inner_margin": [0, 5],
-    "blur": false
-  },
-  {
-    // Overlay horizontal scroll bar
-    "class": "scroll_bar_control",
-    "settings": ["overlay_scroll_bars"],
-    "attributes": ["horizontal"],
-    "layer0.texture": "Predawn/assets/overlay-scrollbar-horizontal.png",
-    "layer0.inner_margin": [5, 0],
-    "blur": false
-  },
-  {
-    // Overlay vertical puck
-    "class": "puck_control",
-    "settings": ["overlay_scroll_bars"],
-    "layer0.texture": "Predawn/assets/overlay-puck-vertical.png",
-    "layer0.inner_margin": [0, 5],
-    "content_margin": [5, 20],
-    "blur": false
-  },
-  {
-    // Overlay horizontal puck
-    "class": "puck_control",
-    "settings": ["overlay_scroll_bars"],
-    "attributes": ["horizontal"],
-    "layer0.texture": "Predawn/assets/overlay-puck-horizontal.png",
-    "layer0.inner_margin": [5, 0],
-    "content_margin": [20, 5],
-    "blur": false
   },
   {
     "class": "sheet_container_control",
@@ -365,8 +330,7 @@
     "layer0.tint": [51, 51, 51],
     "layer0.opacity": 1.0,
     "layer0.draw_center": false,
-    "layer0.inner_margin": 0,
-    "content_margin": [0, 0, 0, 0]
+    "content_margin": [0, 10, 0, 0]
   },
   {
     // Sidebar rows
@@ -850,7 +814,7 @@
     "settings": ["predawn_sidebar_narrow"],
     "indent": 5
   },
-{
+  {
     // Hides Folder Icons
     "class": "disclosure_button_control",
     "content_margin": [0, 0],
