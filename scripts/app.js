@@ -7,8 +7,6 @@ $(document).ready(function(){
     // Set Syntax Label
     var syntax = $(ui.newPanel).data("syntax");
     $("#syntax-label").text(syntax);
-    // Donate Button
-    $('.donate-btn').addClass('donate-btn-in');
   });
 
   $(".predawn-tabs").sortable({ axis: "x", revert: 150 });
