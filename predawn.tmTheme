@@ -109,7 +109,7 @@ COLOR KEY
 			<key>name</key>
 			<string>Entity</string>
 			<key>scope</key>
-			<string>entity, meta.function.js</string>
+			<string>entity, meta.function.js, variable.function.js, meta.group.braces.round.function.arguments.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -122,7 +122,7 @@ COLOR KEY
 			<key>name</key>
 			<string>Handlebars Text</string>
 			<key>scope</key>
-			<string>text.html.handlebars</string>
+			<string>text.html.handlebars, variable.other.dollar.js, variable.other.readwrite.js, meta.property.object.js, constant.other.object.key.js, constant.other.object.key.js string.unquoted.label.js, variable.parameter.function.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -703,7 +703,7 @@ COLOR KEY
 			<key>name</key>
 			<string>@media</string>
 			<key>scope</key>
-			<string>meta.at-rule.media.css, meta.at-rule.media.scss</string>
+			<string>meta.at-rule.media.css, meta.at-rule.media.scss, source.scss meta.property-list.scss meta.property-value.scss variable.scss variable.scss</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

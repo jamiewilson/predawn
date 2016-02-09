@@ -1,0 +1,1 @@
+2.0.2 - Patch to improve ST 3103 JS Syntax Highlighting (https://github.com/jamiewilson/predawn/issues/122)
