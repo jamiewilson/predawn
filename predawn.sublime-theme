@@ -160,6 +160,7 @@
   },
   {
     "class": "tab_label",
+    "settings": ["predawn_transient_tabs_italic"],
     "attributes": ["transient"],
     "font.italic": true
   },
