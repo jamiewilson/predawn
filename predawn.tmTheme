@@ -109,11 +109,84 @@ COLOR KEY
 			<key>name</key>
 			<string>Entity</string>
 			<key>scope</key>
-			<string>entity, meta.function.js, variable.function.js, meta.group.braces.round.function.arguments.js</string>
+			<string>entity</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#92BFBF</string>
+			</dict>
+		</dict>
+
+		<!-- Javascript -->
+		<dict>
+			<key>name</key>
+			<string>Javascript - White</string>
+			<key>scope</key>
+			<string>source.js, variable.other.class.js, variable.other.property.static.js, entity.name.function.js, keyword.operator.accessor.js, variable.other.readwrite.js, variable.other.object.js, variable.parameter.function.js, keyword.operator.assignment.js, punctuation.separator.key-value.js, string.unquoted.label.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#f1f1f1</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Javascript - Yellow</string>
+			<key>scope</key>
+			<string>keyword.control.flow.js, variable.language.this.js, keyword.control.conditional.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#EDE480</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Javascript - Light Blue</string>
+			<key>scope</key>
+			<string>string.quoted.single.js, string.quoted.single.js entity.name.function.js, variable.parameter.function.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#BDDCDC</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Javascript - Blue</string>
+			<key>scope</key>
+			<string>meta.group.braces.curly meta.property.class.js variable.other.class.js, source.js meta.group.braces.round meta.function-call.with-arguments.js variable.function.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#92BFBF</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Javascript - Green</string>
+			<key>scope</key>
+			<string>constant.language.boolean.true.js, constant.language.boolean.false.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#B4D388</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Javascript - Orange</string>
+			<key>scope</key>
+			<string>meta.group.braces.curly meta.property.class.js variable.other.property.static.js, constant.language.boolean.false.js, source.js meta.group.braces.round meta.function-call.method.with-arguments.js variable.function.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F49D62</string>
 			</dict>
 		</dict>
 
@@ -122,7 +195,7 @@ COLOR KEY
 			<key>name</key>
 			<string>Handlebars Text</string>
 			<key>scope</key>
-			<string>text.html.handlebars, variable.other.dollar.js, variable.other.readwrite.js, meta.property.object.js, constant.other.object.key.js, constant.other.object.key.js string.unquoted.label.js, variable.parameter.function.js</string>
+			<string>text.html.handlebars</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -167,7 +240,7 @@ COLOR KEY
 			<key>name</key>
 			<string>Keyword</string>
 			<key>scope</key>
-			<string>keyword, meta.brace.round.js, meta.brace.square.js</string>
+			<string>keyword</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
