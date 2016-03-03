@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
     <key>scope</key>
-    <string>source.css, source.scss, source.less, source.sass</string>
+    <string>source.haxe</string>
     <key>settings</key>
     <dict>
         <key>icon</key>
-        <string>file_type_css</string>
+        <string>file_type_haxe</string>
     </dict>
 </dict>
 </plist>
