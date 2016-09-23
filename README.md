@@ -1,5 +1,5 @@
 **NEW: Predawn Shell**  
-Does your command line need some love. [Check out the predawn-shell repo](/jamiewilson/predawn-shell) for an [iTerm](http://iterm2.com/), Terminal (special thanks to [@danielbayley](https://github.com/danielbayley), and a [Oh-My-ZSH](http://ohmyz.sh/) prompt theme.
+Does your command line need some love. [Check out the predawn-shell repo](https://github.com/jamiewilson/predawn-shell) for an [iTerm](http://iterm2.com/), Terminal (special thanks to [@danielbayley](https://github.com/danielbayley), and a [Oh-My-ZSH](http://ohmyz.sh/) prompt theme.
 
 ![predawn-shell-iterm](http://i.imgur.com/YxtbMts.png)
 
