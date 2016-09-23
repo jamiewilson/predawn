@@ -49,32 +49,18 @@ Panel Options
   "predawn_quick_panel_small": false,
 
 
-===============================================================
-I've put a lot of time and effort into making Predawn awesome.
-If you love it, please consider helping me make it even better!
-===============================================================
-
- ___   _   _  __   __    __  __   ___
-| _ ) | | | | \ \ / /   |  \/  | | __|
-| _ \ | |_| |  \ V /    | |\/| | | _|
-|___/  \___/    |_|     |_|  |_| |___|
-   _        ___    ___    ___   ___   ___   ___   ___
-  /_\      / __|  / _ \  | __| | __| | __| | __| |__ \
- / _ \    | (__  | (_) | | _|  | _|  | _|  | _|    /_/
-/_/ \_\    \___|  \___/  |_|   |_|   |___| |___|  (_)
-
-https://plasso.co/s/ZezNW6UhHv/
-
-  ___   ___
- / _ \ | _ \
-| (_) ||   /
- \___/ |_|_\
-
-If you want to put your money to really good use:
-
-===================================
-HELP PROTECT THE POOR FROM VIOLENCE
-===================================
-
-Give to the International Justice Mission:
-https://www.ijm.org/make-gift
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*                                                           *
+*                                                           *
+*     If you want to put your time, money and skills        *
+*     to really good use, consider contributing to IJM.     *
+*                                                           *
+*     Rescue thousands. Protect millions.                   *
+*     Prove that justice for the poor is possible.          *
+*                                                           *
+*                                                           *
+*     Give to the International Justice Mission:            *
+*     https://www.ijm.org/make-gift                         *
+*                                                           *
+*                                                           *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *

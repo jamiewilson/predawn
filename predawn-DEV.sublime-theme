@@ -813,7 +813,14 @@
   {
     "class": "sidebar_tree",
     "settings": ["predawn_sidebar_narrow"],
-    "indent": 5
+    "row_padding": [10, 4],
+    "indent": 4
+  },
+  // Hide close button with sidebar_narrow
+  {
+    "class": "close_button",
+    "settings": ["predawn_sidebar_narrow"],
+    "content_margin": [0, 0]
   },
   {
     // Hides Folder Icons
