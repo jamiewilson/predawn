@@ -5,13 +5,21 @@
 
 COLOR KEY
 
-#CF5340 - Red
 #F18260 - Predawn
-#F49D62 - Orange
+
+#F5F5AE - Pale Yellow
 #EDE480 - Yellow
+#F49D62 - Orange
+#CF5340 - Red
+#893121 - Dark Red
+#55201B - Maroon
+
+#BDDCDC - Pale Blue
 #92BFBF - Blue
-#BDDCDC - Light Blue
+#5F777E - Slate
 #B4D388 - Green
+#D0EDA7 - Pale Green
+#809161 - Dark Green
 
 #151515 - Black
 #232323 - Grey 9
@@ -190,10 +198,10 @@ COLOR KEY
 			</dict>
 		</dict>
 
-		<!-- Handlebars -->
+		<!-- Templating: Handlebars, Swig, Django, etc -->
 		<dict>
 			<key>name</key>
-			<string>Handlebars Text</string>
+			<string>Handlebars Text - Grey 1</string>
 			<key>scope</key>
 			<string>text.html.handlebars</string>
 			<key>settings</key>
@@ -204,7 +212,7 @@ COLOR KEY
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Handlebars Text</string>
+			<string>Orange</string>
 			<key>scope</key>
 			<string>text.html.handlebars meta.function.inline.other.handlebars variable.parameter.handlebars, text.html.django storage.type.variable.django string.unquoted.tag-string.django</string>
 			<key>settings</key>
@@ -215,7 +223,7 @@ COLOR KEY
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Handlebars Braces</string>
+			<string>Grey 1</string>
 			<key>scope</key>
 			<string>text.html.handlebars meta.function.inline.other.handlebars support.constant.handlebars, meta.function.block.start.swig, support.constant.swig, support.constant.handlebars, entity.tag.tagbraces.django</string>
 			<key>settings</key>
@@ -226,7 +234,7 @@ COLOR KEY
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Handlebars Loops</string>
+			<string>Blue</string>
 			<key>scope</key>
 			<string>text.html.handlebars meta.function.block.start.handlebars support.constant.handlebars, string.unquoted.tag-string.django, keyword.control.filter.django</string>
 			<key>settings</key>
@@ -238,7 +246,7 @@ COLOR KEY
 
 		<dict>
 			<key>name</key>
-			<string>Keyword</string>
+			<string>Keyword - Orange</string>
 			<key>scope</key>
 			<string>keyword</string>
 			<key>settings</key>
@@ -249,7 +257,7 @@ COLOR KEY
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Storage</string>
+			<string>Storage - Yellow</string>
 			<key>scope</key>
 			<string>storage</string>
 			<key>settings</key>
@@ -260,7 +268,7 @@ COLOR KEY
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>String</string>
+			<string>String - Pale Blue</string>
 			<key>scope</key>
 			<string>string</string>
 			<key>settings</key>
@@ -271,9 +279,9 @@ COLOR KEY
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Support</string>
+			<string>Support - Blue</string>
 			<key>scope</key>
-			<string>support</string>
+			<string>support, meta.function.block.start.swig support.constant.swig</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -282,7 +290,7 @@ COLOR KEY
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Variable</string>
+			<string>Variable - Orange</string>
 			<key>scope</key>
 			<string>variable</string>
 			<key>settings</key>
@@ -304,7 +312,7 @@ COLOR KEY
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Embedded Source (Bright)</string>
+			<string>Background Black</string>
 			<key>scope</key>
 			<string>text.html.ruby source</string>
 			<key>settings</key>
@@ -315,7 +323,7 @@ COLOR KEY
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Entity inherited-class</string>
+			<string>Green</string>
 			<key>scope</key>
 			<string>entity.other.inherited-class</string>
 			<key>settings</key>
@@ -326,9 +334,9 @@ COLOR KEY
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>String embedded-source</string>
+			<string>Green</string>
 			<key>scope</key>
-			<string>string.quoted source</string>
+			<string>string.quoted source, string constant</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -337,18 +345,7 @@ COLOR KEY
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>String constant</string>
-			<key>scope</key>
-			<string>string constant</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#B4D388</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>String.regexp</string>
+			<string>Orange</string>
 			<key>scope</key>
 			<string>string.regexp</string>
 			<key>settings</key>
@@ -359,7 +356,7 @@ COLOR KEY
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>String variable</string>
+			<string>Yellow</string>
 			<key>scope</key>
 			<string>string variable</string>
 			<key>settings</key>
@@ -370,7 +367,7 @@ COLOR KEY
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Support.function</string>
+			<string>Orange</string>
 			<key>scope</key>
 			<string>support.function</string>
 			<key>settings</key>
