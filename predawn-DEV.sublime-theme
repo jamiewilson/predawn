@@ -832,6 +832,12 @@
     "layer0.opacity": 0.3,
     "layer0.inner_margin": 0
   },
+  // Hide disclosure button with sidebar_narrow
+  {
+    "class": "disclosure_button_control",
+    "settings": ["predawn_sidebar_narrow"],
+    "content_margin": [0, 0]
+  },
   // Disclosure arrows before folders - hover
   {
     "class": "disclosure_button_control",
@@ -840,15 +846,15 @@
   },
   // Disclosure arrows before open folders
   {
-      "class": "disclosure_button_control",
-      "attributes": ["expanded"],
-      "layer0.texture": "Predawn/assets/disclosure-open.png"
+    "class": "disclosure_button_control",
+    "attributes": ["expanded"],
+    "layer0.texture": "Predawn/assets/disclosure-open.png"
   },
   // Disclosure arrows before open folders - hover
   {
-      "class": "disclosure_button_control",
-      "attributes": ["expanded"],
-      "parents": [{"class": "tree_row","attributes": ["hover"]}]
+    "class": "disclosure_button_control",
+    "attributes": ["expanded"],
+    "parents": [{"class": "tree_row","attributes": ["hover"]}]
   },
   {
     // Replaces Default Folder Icons
