@@ -95,7 +95,7 @@ COLOR KEY
 			<key>name</key>
 			<string>Python Docstring</string>
 			<key>scope</key>
-			<string>string.quoted.double.block.python, text.html.django storage.type.templatetag.django storage.type.attr.django, text.html.jekyll punctuation.tag.jekyll string.quoted.single.jekyll, text.html.swig meta.function.block.start.swig string.quoted.single.html</string>
+			<string>string.docstring, text.html.django storage.type.templatetag.django storage.type.attr.django, text.html.jekyll punctuation.tag.jekyll string.quoted.single.jekyll, text.html.swig meta.function.block.start.swig string.quoted.single.html</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
