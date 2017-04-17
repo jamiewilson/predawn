@@ -55,7 +55,7 @@ _Also, you can view on the repo on Atom.io at http://atom.io/packages/predawn-ui
 
 # [Sublime Text](https://sublime.wbond.net/packages/Predawn) Installation
 
-###Recommended
+### Recommended
 For easy installation, install with [Package Control](https://sublime.wbond.net/docs).
 
 1. <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> (OS X) <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> (Win/Linux)
