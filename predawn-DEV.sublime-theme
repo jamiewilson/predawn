@@ -1,4 +1,11 @@
 [
+   {
+    // Title Bar (build 3127+, macOS only)
+    "class": "title_bar",
+    "bg": [30, 30, 30],
+    "fg": [237, 135, 104], //predawn
+    // "fg": [150, 150, 150], //gray
+  },
   {
     // Tabs
     "class": "tabset_control",
