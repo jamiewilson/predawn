@@ -367,7 +367,7 @@
     "layer0.opacity": 1.0,
     "layer0.draw_center": false,
     "layer0.inner_margin": 0,
-    "content_margin": [0, 0, 0, 0]
+    "content_margin": [0, 10, 0, 0]
   },
   {
     // Sidebar rows
