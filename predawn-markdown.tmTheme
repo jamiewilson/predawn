@@ -71,9 +71,9 @@
     </dict>
     <dict>
         <key>name</key>
-        <string>Markdown: Image</string>
+        <string>Markdown: Link, Image link</string>
         <key>scope</key>
-        <string>meta.link.inline.markdown, meta.image.inline.markdown</string>
+        <string>meta.link.inline.markdown, meta.image.inline.markdown, markup.underline.link.image.markdown</string>
         <key>settings</key>
         <dict>
             <key>foreground</key>
@@ -82,9 +82,9 @@
     </dict>
 		<dict>
     		<key>name</key>
-        <string>Markdown: String</string>
+        <string>Markdown: String, Image</string>
         <key>scope</key>
-        <string>string.other.link.title.markdown</string>
+        <string>string.other.link.title.markdown, meta.image.inline.markdown</string>
         <key>settings</key>
         <dict>
             <key>foreground</key>
@@ -104,9 +104,9 @@
     </dict>
 			<dict>
 		    <key>name</key>
-		    <string>Markdown: Image link, Inline Code, Block Code, Blockquote</string>
+		    <string>Markdown: Inline Code, Block Code, Blockquote</string>
 		    <key>scope</key>
-		    <string>markup.underline.link.image.markdown, meta.block-level.markdown markup.raw.block.markdown, markup.raw.inline</string>
+		    <string>meta.block-level.markdown markup.raw.block.markdown, markup.raw.inline</string>
 		    <key>settings</key>
 		    <dict>
 		    		<key>foreground</key>

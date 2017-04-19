@@ -516,7 +516,7 @@ COLOR KEY
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#777777</string>
+				<string>#f49d62</string>
 			</dict>
 		</dict>
 		<dict>
@@ -942,7 +942,7 @@ COLOR KEY
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#999</string>
+				<string>#bddcdc</string>
 			</dict>
 		</dict>
 		<dict>
