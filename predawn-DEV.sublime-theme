@@ -383,20 +383,21 @@
     // Sidebar file close
     "class": "close_button",
     "layer0.texture": "Predawn/assets/file-close.png",
-    "layer0.opacity": 0.25,
-    "layer1.texture": "Predawn/assets/file-dirty.png",
+    "layer0.opacity": 0.3,
+    "layer1.texture": "Predawn/assets/file-close.png",
     "layer1.opacity": 0,
+    "layer1.tint": [241, 130, 95],
     "content_margin": [8, 8]
   },
   {
     "class": "close_button",
     "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-    "layer0.opacity": 0.5
+    "layer0.opacity": 1
   },
   {
     "class": "close_button",
     "parents": [{"class": "tree_row", "attributes": ["hover", "selected"]}],
-    "layer0.opacity": 0.25
+    "layer0.opacity": 1
   },
   {
     // Sidebar file dirty
@@ -822,11 +823,32 @@
     "settings": ["predawn_sidebar_narrow"],
     "content_margin": [0, 0]
   },
+  // Disclosure arrows before folders - show with "predawn_sidebar_disclosure_arrows": true
   {
-    // Hides Folder Icons
     "class": "disclosure_button_control",
-    "content_margin": [0, 0],
-    "layer0.opacity": 0
+    "settings": ["predawn_sidebar_disclosure_arrows"],
+    "content_margin": [8,8],
+    "layer0.texture": "Predawn/assets/disclosure-closed.png",
+    "layer0.opacity": 0.3,
+    "layer0.inner_margin": 0
+  },
+  // Disclosure arrows before folders - hover
+  {
+    "class": "disclosure_button_control",
+    "parents": [{"class": "tree_row","attributes": ["hover"]}],
+    "layer0.opacity": 1
+  },
+  // Disclosure arrows before open folders
+  {
+      "class": "disclosure_button_control",
+      "attributes": ["expanded"],
+      "layer0.texture": "Predawn/assets/disclosure-open.png"
+  },
+  // Disclosure arrows before open folders - hover
+  {
+      "class": "disclosure_button_control",
+      "attributes": ["expanded"],
+      "parents": [{"class": "tree_row","attributes": ["hover"]}]
   },
   {
     // Replaces Default Folder Icons
