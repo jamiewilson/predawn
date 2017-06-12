@@ -20,6 +20,7 @@ Does your command line need some love. [Check out the predawn-shell repo](https:
 
 	// Sidebar Options
 	"predawn_sidebar_arrows": false,
+	"predawn_sidebar_folder_gray": false,
 	"predawn_sidebar_large": false,
 	"predawn_sidebar_medium": false,
 	"predawn_sidebar_narrow": false,
