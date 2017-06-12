@@ -178,7 +178,7 @@ COLOR KEY
 			<key>name</key>
 			<string>Javascript - Green</string>
 			<key>scope</key>
-			<string>constant.language.boolean.true.js, constant.language.boolean.false.js</string>
+			<string>constant.language.boolean.true.js, constant.language.boolean.false.js, keyword.operator.new.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
