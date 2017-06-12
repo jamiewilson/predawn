@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
     <key>scope</key>
-    <string>text.haml,source.ruby.rails, source.ruby, source.rb</string>
+    <string>source.java</string>
     <key>settings</key>
     <dict>
         <key>icon</key>
-        <string>file_type_ruby</string>
+        <string>file_type_java</string>
     </dict>
 </dict>
 </plist>
