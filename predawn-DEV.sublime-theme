@@ -1,11 +1,4 @@
 [
-  // {
-  //   // Title Bar (build 3127+, macOS only)
-  //   "class": "title_bar",
-  //   "bg": [30, 30, 30], // Darkgrey
-  //   "fg": [150, 150, 150], // Grey
-  //   // "fg": [241, 130, 96], // Predawn Oraange
-  // },
   {
     // Tabs
     "class": "tabset_control",

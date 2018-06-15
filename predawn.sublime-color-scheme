@@ -1,0 +1,139 @@
+{
+  "name": "Predawn Color Scheme",
+
+  "variables": {
+    "predawn": "#F18260",
+    "pale-yellow": "#F5F5AE",
+    "yellow": "#EDE480",
+    "orange": "#F49D62",
+    "red": "#CF5340",
+    "dark-red": "#893121",
+    "maroon": "#55201B",
+    "pale-blue": "#BDDCDC",
+    "blue": "#92BFBF",
+    "slate": "#5F777E",
+    "green": "#B4D388",
+    "pale-green": "#D0EDA7",
+    "dark-green": "#809161",
+
+    "white": "#F1F1F1",
+    "grey-1": "#999999",
+    "grey-2": "#777777",
+    "grey-3": "#4C4C4C",
+    "grey-4": "#3C3C3C",
+    "grey-5": "#282828",
+    "grey-7": "#232323",
+    "black": "#151515"
+  },
+
+  "globals": {
+    "background": "var(grey-5)",
+    "foreground": "var(white)",
+    "caret": "var(predawn)",
+    "invisibles": "var(predawn)",
+    "line_highlight": "var(grey-7)",
+    "selection": "var(grey-3)",
+    "invactive_selection": "var(grey-4)",
+    "find_hightlight": "var(predawn)",
+    "gutter_foreground": "var(grey-3)",
+    "guide": "color(var(predawn) alpha(0.25))",
+    "active_guide": "color(var(predawn) alpha(0.50))",
+    "minimap_border": "color(var(predawn) alpha(0.25))"
+  },
+
+  "rules": [
+    {
+      "name": "Comment",
+      "scope": "comment",
+      "foreground": "var(grey-2)",
+      "font_style": "italic"
+    },
+    {
+      "name": "String",
+      "scope": "string",
+      "foreground": "var(pale-blue)",
+    },
+    {
+      "name": "Constant",
+      "scope": "constant",
+      "foreground": "var(yellow)"
+    },
+    {
+      "name": "Entity",
+      "scope": "entity",
+      "foreground": "var(blue)"
+    },
+    {
+      "name": "white",
+      "scope": "source.js, variable.other.class.js, variable.other.property.static.js, entity.name.function.js, keyword.operator.accessor.js, variable.other.readwrite.js, variable.other.object.js, variable.parameter.function.js, keyword.operator.assignment.js, punctuation.separator.key-value.js, string.unquoted.label.js, text.html.handlebars, text.html.handlebars meta.function.inline.other.handlebars support.constant.handlebars, meta.function.block.start.swig, support.constant.swig, support.constant.handlebars, entity.tag.tagbraces.django, source.css meta.selector.css meta.attribute-selector.css keyword.operator.attribute-selector.css, source.css meta.selector.css meta.attribute-selector.css keyword.operator.attribute-selector.css, punctuation.section.function.scss, punctuation.terminator.rule.scss, punctuation.separator.key-value.scss, sublimelinter.gutter-mark",
+      "foreground": "var(white)"
+    },
+    {
+      "name": "yellow/italic",
+      "scope": "keyword.control.flow.js, variable.language.this.js, keyword.control.conditional.js, constant.language.json, storage, meta.property-group support.constant.property-value.css, meta.property-value support.constant.property-value.css, meta.property-group support.constant.property-value.scss, meta.property-value support.constant.property-value.scss, meta.property-list meta.property-value.scss, entity.other.attribute-name.html, entity.other.attribute-name.class.html",
+      "foreground": "var(yellow)",
+      "font_style": "italic"
+    },
+    {
+      "name": "yellow",
+      "scope": "storage.type.function.arrow.js, string variable, meta.selector.css entity.name.tag, entity.name.tag.scss, source.scss entity.other.attribute-name.pseudo-class.scss, keyword.control.at-rule.include.scss, entity.name.tag.wildcard.scss, source.css meta.property-list.css meta.property-value.css, meta.property-value support.constant.named-color.css, meta.property-value constant, keyword.control.at-rule.import.css, keyword.control.at-rule.import.scss, keyword.control.at-rule.keyframes.css, keyword.control.at-rule.keyframes.scss, variable.other.property.php, sublimelinter.mark.warning",
+      "foreground": "var(yellow)",
+      "font_style": "regular"
+    },
+    {
+      "name": "pale-blue",
+      "scope": "string.quoted.single.js, string.quoted.single.js entity.name.function.js, variable.parameter.function.js, string.quoted.single, storage.type.attr.django, support.variable.jekyll, string.regexp.single-quoted.php",
+      "foreground": "var(pale-blue)"
+    },
+    {
+      "name": "blue",
+      "scope": "meta.group.braces.curly meta.property.class.js variable.other.class.js, source.js meta.group.braces.round meta.function-call.with-arguments.js variable.function.js, text.html.handlebars meta.function.block.start.handlebars support.constant.handlebars, string.unquoted.tag-string.django, keyword.control.filter.django, other.preprocessor.c, other.preprocessor.c entity, source.scss meta.property-list.scss meta.property-name.scss support.type.property-name.scss, source.css meta.property-list.css meta.property-name.css support.type.property-name.css, markup.changed.git_gutter, punctuation.definition.tag.end, punctuation.definition.tag.begin, punctuation.definition.tag, brackethighlighter.default, source.scss meta.property-list.scss meta.property-name.scss support.type.property-name.scss, source.css meta.property-list.css meta.property-name.css support.type.property-name.css",
+      "foreground": "var(blue)",
+      "font_style": "regular"
+    },
+    {
+      "name": "blue/italic",
+      "scope": "support, meta.function.block.start.swig support.constant.swig, support.type.property-name.css, invalid.illegal, support.type.property-name.scss, entity.other.attribute-name.pseudo-element.css, entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.attribute.css, variable.scss, meta.property-name.scss, source.css meta.property-list.css meta.property-name.css",
+      "foreground": "var(blue)",
+      "font_style": "italic"
+    },
+    {
+      "name": "green",
+      "scope": "constant.language.boolean.true.js, keyword.operator.new.js, entity.other.inherited-class, string.quoted source, string constant, support.constant, declaration.tag, declaration.tag entity, meta.tag, meta.tag entity, meta.selector.css entity.other.attribute-name.class, source.scss entity.other.attribute-name.class.css, keyword.other.default.scss, markup.inserted.git_gutter, variable.other.less, entity.other.less.mixin, keyword.control.php",
+      "foreground": "var(green)"
+    },
+    {
+      "name": "orange",
+      "scope": "meta.group.braces.curly meta.property.class.js variable.other.property.static.js, source.js meta.group.braces.round meta.function-call.method.with-arguments.js variable.function.js, source.js support.constant.dom.js, text.html.handlebars meta.function.inline.other.handlebars variable.parameter.handlebars, text.html.django storage.type.variable.django string.unquoted.tag-string.django, keyword, variable, string.regexp, support.function, meta.selector.css entity.other.attribute-name.id, meta.selector.scss entity.other.attribute-name.id, entity.name.tag.reference.scss, meta.preprocessor.at-rule keyword.control.at-rule, entity.name.tag.jekyll, meta.at-rule.media.css, meta.at-rule.media.scss, source.scss meta.property-list.scss meta.property-value.scss variable.scss variable.scss",
+      "foreground": "var(orange)"
+    },
+    {
+      "name": "orange/italic",
+      "scope": "entity.other.attribute-name.id.html, meta.constructor.argument.css, source.css.less keyword.unit.css, entity.other.attribute-name.angular.html, source.angular.embedded.html, constant.character.entity.html",
+      "foreground": "var(orange)",
+      "font_style": "italic"
+    },
+    {
+      "name": "red",
+      "scope": "markup.deleted.git_gutter, sublimelinter.mark.error",
+      "foreground": "var(red)"
+    },
+    {
+      "name": "red/italic",
+      "scope": "invalid, keyword.other.important.scss, constant.language.boolean.false.js",
+      "foreground": "var(red)",
+      "font_style": "italic"
+    },
+    {
+      "name": "grey-2/regular",
+      "scope": "source.scss string.quoted.single, source.css string.quoted.double, source.scss string.quoted.double, source.css variable.parameter, variable.parameter.url.scss, string.unquoted.attribute-value.scss, string.unquoted.attribute-value.css, string.quoted.single.css, markup.ignored.git_gutter, markup.untracked.git_gutter, meta.tag.sgml.doctype.xml, declaration.sgml.html declaration.doctype, declaration.sgml.html declaration.doctype entity, declaration.sgml.html declaration.doctype string, declaration.xml-processing, declaration.xml-processing entity, declaration.xml-processing string, doctype",
+      "foreground": "var(grey-2)",
+      "font_style": "regular"
+    },
+    {
+      "name": "grey-1",
+      "scope": "keyword.operator.logical.php, keyword.operator.assignment.php, keyword.operator.class.php",
+      "foreground": "var(grey-1)"
+    },
+  ]
+}
