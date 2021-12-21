@@ -667,6 +667,23 @@
     "layer0.texture": "Predawn/assets/icon-context-on.png"
   },
   {
+    // Use gitignore button
+    "class": "icon_use_gitignore",
+    "layer0.opacity": 1.0,
+    "content_margin": [12, 12],
+    "layer0.tint": "#555555"
+  },
+  {
+    "class": "icon_use_gitignore",
+    "parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
+    "layer0.tint": "#ffffff"
+  },
+  {
+    "class": "icon_use_gitignore",
+    "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+    "layer0.tint": "#f18260"
+  },
+  {
     // Use search buffer
     "class": "icon_use_buffer",
     "layer0.texture": "Predawn/assets/icon-buffer-off.png",
